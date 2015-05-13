@@ -18,15 +18,15 @@
     50% { border-color: black }
 }
 
-body { font-family: Consolas, monospace; }
 
-* { 
-    position: relative; 
-    float: left;
-    font-size:100%;
+body {
+  font-family: Consolas, monospace;
+  position: relative;
+  float: left;
+  font-size:100%;
 }
 
-* span {
+body span {
     position:absolute;
     top:0;
     right:0;
