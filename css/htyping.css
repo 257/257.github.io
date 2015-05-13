@@ -23,7 +23,7 @@ body { font-family: Consolas, monospace; }
 * { 
     position: relative; 
     float: left;
-    font-size:150%;
+    font-size:100%;
 }
 
 * span {
