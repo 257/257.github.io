@@ -47,7 +47,7 @@ $(function() {
 "\n",
 "Server Administration",
 "Network                    DNS, DHCP, QoS, VoIP/sip, VPN, edgeos (vyatta/vyos fork) admin",
-"                           Currently am ISP to my own r\[u00E9]sidence (7 units plus Pharex Canada)",
+"                           Currently am ISP to my own résidence (7 units plus Pharex Canada)",
 "Directory services         Open Directory (OSX version of openldap), kerborized triangle",
 "Image deployment           deploy studio",]
       ];
