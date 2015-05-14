@@ -21,7 +21,7 @@ $(function() {
       ];
 
       self.el.vintageTxt('updateOptions', {
-        textSpeed: 8
+        textSpeed: 2
         ,onFinishedTyping : function(){setTimeout(self.emp_history, 2000);}
         ,promptEnabled : false
       });
