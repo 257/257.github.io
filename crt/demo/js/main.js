@@ -21,7 +21,7 @@ $(function() {
     },
 
     edu : function edu() {
-    var fill_screen = Array(32).join("\n");
+    var fill_screen = Array(32).join(".");
     var texts = [
 [fill_screen],
 ["EDUCATION",
