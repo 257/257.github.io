@@ -1,5 +1,5 @@
 .vtxt_wrapper {
-    position: relative;
+    position: fixed;
     width: 100%;
     height: 100%;
     background: #000;
@@ -29,7 +29,7 @@
 
 .vintageTxt_overlay{
     position: relative;
-    z-index: 100;
+    z-index: 99;
 }
 
 .vtxt_wrapper input, .vtxt_wrapper input:focus {
