@@ -10,7 +10,7 @@ $(function() {
 "how are you btw?",
 "i'm running bits slow today just give us a sec...",
 "found it! that's a big one!",
-"gonna run out of mem, there you go:" 
+"running out of mem... there you go before that happens:" 
         ]
         ,textSpeed: 16
         ,linePause: 128
