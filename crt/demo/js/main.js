@@ -30,7 +30,9 @@ $(function() {
       ];
 
       self.el.vintageTxt('updateOptions', {
-        onFinishedTyping : self.pageTwo
+        textSpeed : 4
+        ,linePause : 512
+        ,onFinishedTyping : self.pageTwo
         ,onEnterKey : null
         ,promptEnabled : false
       });
