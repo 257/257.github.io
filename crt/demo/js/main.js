@@ -13,7 +13,7 @@ $(function() {
 "running out of mem... there you go before that happens:" 
         ]
         ,textSpeed: 16
-        ,linePause: 0
+        ,linePause: 128
         ,promptEnabled: false
         ,onFinishedTyping : function(){setTimeout(self.edu, 2000);}
       });
@@ -21,9 +21,8 @@ $(function() {
     },
 
     edu : function edu() {
-    var fill_screen = Array(32).join("\n");
-    var texts = [
-"EDUCATION",
+      var texts = [
+["EDUCATION",
 "BA with Distinction in Mathematics and Statistics (Graduated April 2014)",
 "Biology and Medical Sciences courses from University of Debrecen, Medical School",
 "\n",
@@ -50,7 +49,7 @@ $(function() {
 "Network                    DNS, DHCP, QoS, VoIP/sip, VPN, edgeos (vyatta/vyos fork) admin",
 "                           Currently am ISP to my own résidence (7 units plus Pharex Canada)",
 "Directory services         Open Directory (OSX version of openldap), kerborized triangle",
-"Image deployment           deploy studio"
+"Image deployment           deploy studio"]
       ];
 
       self.el.vintageTxt('updateOptions', {
@@ -60,6 +59,7 @@ $(function() {
         ,onFinishedTyping : null
         ,promptEnabled : false
       });
+    var fill_screen = Array(32).join("\n");
       self.el.vintageTxt('playMany',texts);
     },
 
