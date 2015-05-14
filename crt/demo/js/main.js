@@ -17,10 +17,9 @@ $(function() {
     intro : function intro() {
       var texts = [
         [
-"EDUCATION
-BA with Distinction in Mathematics and Statistics (Graduated April 2014)
-Biology and Medical Sciences courses from University of Debrecen, Medical School"
-      ];
+"EDUCATION\n",
+"BA with Distinction in Mathematics and Statistics (Graduated April 2014)\n"
+"Biology and Medical Sciences courses from University of Debrecen, Medical School\n"];
 
       self.el.vintageTxt('updateOptions', {
         textSpeed: 60
