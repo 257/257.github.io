@@ -6,7 +6,8 @@ $(function() {
     go : function go() {
       this.el.vintageTxt({
          text : ["you asked for my resume? coming up..."]
-        ,textSpeed: 2
+        ,textSpeed: 16
+        ,linePause : 4096
         ,promptEnabled: false
         ,onFinishedTyping : this.edu
       });
@@ -33,7 +34,6 @@ $(function() {
         textSpeed : 4
         ,linePause : 1024
         ,onFinishedTyping : function(){setTimeout(self.pageTwo, 2000);}
-        ,onEnterKey : null
         ,promptEnabled : false
       });
       self.el.vintageTxt('playMany',texts);
