@@ -8,7 +8,7 @@ $(function() {
          text : ["you asked for my resume? coming up..."]
         ,textSpeed: 16
         ,promptEnabled: false
-        ,onFinishedTyping : function(){setTimeout(this.edu , 2000);}
+        ,onFinishedTyping : function(){setTimeout(this.edu , 200);}
       });
 
     },
