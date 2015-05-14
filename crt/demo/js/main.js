@@ -21,7 +21,6 @@ $(function() {
     },
 
     edu : function edu() {
-      var fill_screen = Array(32).join("\n");
       var texts = [
 ["EDUCATION",
 "BA with Distinction in Mathematics and Statistics (Graduated April 2014)",
@@ -60,6 +59,8 @@ $(function() {
         ,onFinishedTyping : null
         ,promptEnabled : false
       });
+    //var fill_screen = Array(32).join("\n");
+    var fill_screen = ["\n\n\n\n"];
       self.el.vintageTxt('playMany',fill_screen);
       self.el.vintageTxt('playMany',texts);
     },
