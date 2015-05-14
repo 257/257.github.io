@@ -7,7 +7,7 @@ $(function() {
       this.el.vintageTxt({
          text : ["you asked for my resume? coming up..."]
         ,textSpeed: 16
-        ,linePause: 8
+        ,linePause: 1024
         ,promptEnabled: false
         ,onFinishedTyping : this.edu
       });
