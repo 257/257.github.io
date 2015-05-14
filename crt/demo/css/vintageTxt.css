@@ -28,8 +28,8 @@
 }
 
 .vintageTxt_overlay{
-    position: absolute;
-    z-index: 99;
+    position: relative;
+    z-index: 100;
 }
 
 .vtxt_wrapper input, .vtxt_wrapper input:focus {
