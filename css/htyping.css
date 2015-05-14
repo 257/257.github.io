@@ -20,13 +20,13 @@
 
 body { font-family: Consolas, monospace; }
 
-body1 { 
+* { 
     position: relative; 
     float: left;
     font-size:100%;
 }
 
-body1 span {
+* span {
     position:absolute;
     top:0;
     right:0;
