@@ -24,6 +24,7 @@
 }
 
 .vtxt_oldSchoolContentText a{
+    background: #000;
     color: #0F0;
 }
 
@@ -47,6 +48,5 @@
     -webkit-box-shadow: inset 0px 0px 85px 5px rgba(0, 0, 0, 1);
     box-shadow: inset 0px 0px 85px 5px rgba(0, 0, 0, 1);
     -webkit-border-radius: 35px;
-    -webkit-border-color: #000;
     border-radius: 35px;
 }
