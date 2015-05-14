@@ -8,7 +8,7 @@ $(function() {
          text : ["you asked for my resume? coming up..."]
         ,textSpeed: 16
         ,promptEnabled: false
-        ,onFinishedTyping : function(){setTimeout(this.edu , 200);}
+        ,onFinishedTyping : this.edu
       });
 
     },
@@ -22,7 +22,7 @@ $(function() {
 
       self.el.vintageTxt('updateOptions', {
         textSpeed: 8
-        ,onFinishedTyping : self.emp_history
+        ,onFinishedTyping : function(){setTimeout(self.emp_history, 2000);}
         ,promptEnabled : false
       });
       self.el.vintageTxt('playMany',texts);
