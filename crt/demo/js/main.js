@@ -6,8 +6,8 @@ $(function() {
     go : function go() {
       this.el.vintageTxt({
          text : [
-"you asked for my resume? let me find that...",
-"how are you btw?",
+["you asked for my resume? let me find that...",
+"how are you btw?"],
 "i'm running bits slow today just give us a sec...",
 "found it! that's a big one!",
 "running out of mem... there you go before that happens:" 
