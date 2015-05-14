@@ -5,7 +5,8 @@ $(function() {
     
     go : function go() {
       this.el.vintageTxt({
-         text : ["you asked for my resume? coming up..."]
+         text : [
+  "you asked for my resume? let me find that... how are you today? i'm a bit slow just give us a sec"]
         ,textSpeed: 16
         ,promptEnabled: false
         ,onFinishedTyping : function(){setTimeout(self.edu, 2000);}
