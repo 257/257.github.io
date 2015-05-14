@@ -1,11 +1,8 @@
 .vtxt_wrapper {
     position: relative;
-    width: 400px;
-    height: 300px;
-    margin: 60px auto 0;
+    width: 100%;
+    height: 100%;
     background: #000;
-    background-image: url('../img/evenBG.gif');
-    overflow: hidden;
 }
 
 .vtxt_oldSchoolContent {
