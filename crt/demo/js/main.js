@@ -8,7 +8,6 @@ $(function() {
          text : ["4 8 15 16 23 42",".  .  .  "]
         ,textSpeed: 300
         ,promptEnabled: false
-        ,overlayImage : 'img/lostpcB.png'
         ,onFinishedTyping : this.intro
       });
 
