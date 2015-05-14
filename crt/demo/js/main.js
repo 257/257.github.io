@@ -22,11 +22,9 @@ $(function() {
 
       self.el.vintageTxt('updateOptions', {
         textSpeed: 10
-        ,onFinishedTyping : null
-        ,onEnterKey : self.pageOne
         ,promptEnabled : false
+        ,onFinishedTyping : self.pageOne
       });
-      self.el.vintageTxt('playMany',texts);
     },
 
     pageOne : function pageOne(e, inputTxt) {
