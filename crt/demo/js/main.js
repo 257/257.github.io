@@ -13,7 +13,7 @@ $(function() {
 "running out of mem... there you go before that happens:" 
         ]
         ,textSpeed: 16
-        ,linePause: 128
+        ,linePause: 0
         ,promptEnabled: false
         ,onFinishedTyping : function(){setTimeout(self.edu, 2000);}
       });
