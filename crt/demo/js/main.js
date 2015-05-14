@@ -62,7 +62,7 @@ $(function() {
     //var fill_screen = Array(32).join("\n");
     var fill_screen = ["empty\n\n\n\n"];
       self.el.vintageTxt('playMany',fill_screen);
-      self.el.vintageTxt('playMany',texts);
+    //  self.el.vintageTxt('playMany',texts);
     },
 
     pageTwo : function pageTwo() {
