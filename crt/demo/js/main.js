@@ -31,15 +31,15 @@ $(function() {
     emp_history : function emp_history() {
       var texts = [
 
-["EMPLOYMENT HISTORY"],
-["Year\tEmployer\tPosition/Notes"],
-["1995-1996\t[1] Kesahvarz F.C.\tMidfielder"],
-["1996-1997\tBazyaft F.C.\tMidfielder"],
-["1998-2003\tBelal Electric Motor MFG Co.\tIT Consultant"],
-["1998-2003\tSelf-employed\tTehran's Grand Bazaar"],
-["2008-2010\tSchool of Cinema Concordia Uni.\tPost-Prod. Assistant, sysadmin"],
-["2010-2011\tCentre for Digital Arts Concordia Uni.\t*nix consultant, sysadmin"],
-["2014-Current\tPharex Canada\tnetwork admin"],
+["EMPLOYMENT HISTORY",
+"Year:Employer:Position/Notes",
+"1995-1996:[1] Kesahvarz F.C.:Midfielder",
+"1996-1997:Bazyaft F.C.:Midfielder",
+"1998-2003:Belal Electric Motor MFG Co.:IT Consultant",
+"1998-2003:Self-employed:Tehran's Grand Bazaar",
+"2008-2010:School of Cinema Concordia Uni.:Post-Prod. Assistant, sysadmin",
+"2010-2011:Centre for Digital Arts Concordia Uni.:*nix consultant, sysadmin",
+["2014-Current:Pharex Canada:network admin",]
       ];
 
       self.el.vintageTxt('updateOptions', {
