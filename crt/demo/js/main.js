@@ -39,7 +39,7 @@ $(function() {
 "1998-2003:Self-employed:Tehran's Grand Bazaar",
 "2008-2010:School of Cinema Concordia Uni.:Post-Prod. Assistant, sysadmin",
 "2010-2011:Centre for Digital Arts Concordia Uni.:*nix consultant, sysadmin",
-["2014-Current:Pharex Canada:network admin",]
+"2014-Current:Pharex Canada:network admin",]
       ];
 
       self.el.vintageTxt('updateOptions', {
