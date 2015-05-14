@@ -7,7 +7,6 @@ $(function() {
       this.el.vintageTxt({
          text : ["you asked for my resume? coming up..."]
         ,textSpeed: 16
-        ,linePause: 2048
         ,promptEnabled: false
         ,onFinishedTyping : this.edu
       });
@@ -18,21 +17,8 @@ $(function() {
       var texts = [
 ["EDUCATION",
 "BA with Distinction in Mathematics and Statistics (Graduated April 2014)",
-"Biology and Medical Sciences courses from University of Debrecen, Medical School"]
-      ];
-
-      self.el.vintageTxt('updateOptions', {
-        textSpeed: 2
-        ,onFinishedTyping : function(){setTimeout(self.emp_history, 2000);}
-        ,promptEnabled : false
-      });
-      self.el.vintageTxt('playMany',texts);
-    },
-
-    emp_history : function emp_history() {
-      var texts = [
-
-["EMPLOYMENT HISTORY",
+"Biology and Medical Sciences courses from University of Debrecen, Medical School",
+"EMPLOYMENT HISTORY",
 "Year         Employer                               Position/Notes",
 "1995-1996    [1] Kesahvarz F.C.                     Midfielder",
 "1996-1997    Bazyaft F.C.                           Midfielder",
