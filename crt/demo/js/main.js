@@ -22,16 +22,24 @@ $(function() {
 
       self.el.vintageTxt('updateOptions', {
         textSpeed: 16
-        ,onFinishedTyping : self.pageOne
+        ,onFinishedTyping : self.emp_history
         ,promptEnabled : false
       });
       self.el.vintageTxt('playMany',texts);
     },
 
-    pageOne : function pageOne(e, inputTxt) {
+    emp_history : function emp_history() {
       var texts = [
-        ["Did you see that, " + inputTxt + "?","It was an input prompt!","And it kinda, sorta works!"]
-        ,["There's also cool features like..."]
+
+["EMPLOYMENT HISTORY"],
+["Year\tEmployer\tPosition/Notes"],
+["1995-1996\t[1] Kesahvarz F.C.\tMidfielder"],
+["1996-1997\tBazyaft F.C.\tMidfielder"],
+["1998-2003\tBelal Electric Motor MFG Co.\tIT Consultant"],
+["1998-2003\tSelf-employed\tTehran's Grand Bazaar"],
+["2008-2010\tSchool of Cinema Concordia Uni.\tPost-Prod. Assistant, sysadmin"],
+["2010-2011\tCentre for Digital Arts Concordia Uni.\t*nix consultant, sysadmin"],
+["2014-Current\tPharex Canada\tnetwork admin"],
       ];
 
       self.el.vintageTxt('updateOptions', {
