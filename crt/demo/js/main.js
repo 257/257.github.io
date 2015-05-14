@@ -21,7 +21,8 @@ $(function() {
     },
 
     edu : function edu() {
-      var texts = [
+      var fill_screen = Array(32).join("\n")
+      var texts = [ fill_screen +
 ["EDUCATION",
 "BA with Distinction in Mathematics and Statistics (Graduated April 2014)",
 "Biology and Medical Sciences courses from University of Debrecen, Medical School",
