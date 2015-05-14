@@ -31,8 +31,8 @@ $(function() {
 
       self.el.vintageTxt('updateOptions', {
         textSpeed : 4
-        ,linePause : 512
-        ,onFinishedTyping : self.pageTwo
+        ,linePause : 1024
+        ,onFinishedTyping : function(){setTimeout(self.pageTwo, 2000);}
         ,onEnterKey : null
         ,promptEnabled : false
       });
