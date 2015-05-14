@@ -5,8 +5,8 @@ $(function() {
     
     go : function go() {
       this.el.vintageTxt({
-         text : ["4 8 15 16 23 42",".  .  .  "]
-        ,textSpeed: 300
+         text : ["you asked for my resume? coming up..."]
+        ,textSpeed: 10 
         ,promptEnabled: false
         ,onFinishedTyping : this.intro
       });
