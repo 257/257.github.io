@@ -8,12 +8,12 @@ $(function() {
          text : ["you asked for my resume? coming up..."]
         ,textSpeed: 20
         ,promptEnabled: false
-        ,onFinishedTyping : this.edu
+        ,onFinishedTyping : this.intro
       });
 
     },
 
-    intro : function edu() {
+    intro : function intro() {
       var texts = [
 ["EDUCATION",
 "BA with Distinction in Mathematics and Statistics (Graduated April 2014)",
