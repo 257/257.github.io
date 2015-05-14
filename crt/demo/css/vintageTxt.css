@@ -28,7 +28,7 @@
 }
 
 .vintageTxt_overlay{
-    position: relative;
+    position: absolute;
     z-index: 99;
 }
 
