@@ -6,7 +6,7 @@ $(function() {
     go : function go() {
       this.el.vintageTxt({
          text : ["you asked for my resume? coming up..."]
-        ,textSpeed: 16
+        ,textSpeed: 2
         ,promptEnabled: false
         ,onFinishedTyping : this.edu
       });
