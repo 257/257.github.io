@@ -6,8 +6,11 @@ $(function() {
     go : function go() {
       this.el.vintageTxt({
          text : [
-["you asked for my resume? let me find that...", "how are you btw?"],
-["i'm running bits slow today just give us a sec...", "found it! that's a big one!", "running out of mem... there you go before that happens:"]
+"you asked for my resume? let me find that...",
+"how are you btw?",
+"i'm running bits slow today just give us a sec...",
+"found it! that's a big one!",
+"running out of mem... there you go before that happens:" 
         ]
         ,textSpeed: 16
         ,linePause: 128
@@ -20,7 +23,7 @@ $(function() {
     edu : function edu() {
     var fill_screen = Array(32).join("\n");
     var texts = [
-[fill_screen ],
+[fill_screen],
 ["EDUCATION",
 "BA with Distinction in Mathematics and Statistics (Graduated April 2014)",
 "Biology and Medical Sciences courses from University of Debrecen, Medical School",
@@ -61,35 +64,6 @@ $(function() {
       self.el.vintageTxt('playMany',texts);
     },
 
-    pageTwo : function pageTwo() {
-      self.el.vintageTxt('reset'
-        ,["... like changing the typing speed,","and the delay for carriage returns.","So you can type lots and lots and lots and lots and lots and lots and lots of stuff without waiting forever."," ","See!?!"]
-        ,{  textSpeed : 10
-           ,linePause : 30
-           ,onFinishedTyping : function(){setTimeout(self.pageThree, 2000);}
-        }
-      );
-    },
-
-    pageThree : function pageThree() {
-      self.el.vintageTxt('reset'
-        ,["And","you","can","also","adjust","the","maximum","number","of","lines","per","screen."," ","Neat,","right?"]
-        ,{  textSpeed : 30
-           ,linePause : 400
-           ,maxRows : 2
-           ,onFinishedTyping : function(){setTimeout(self.pageFour, 2000);}
-        }
-      );
-    },
-
-    pageFour : function pageFour() {
-      self.el.vintageTxt('reset'
-        ,["Not to mention the callbacks!","Oh, the callbacks!"," ","Watch what happens when I'm done typing..."]
-        ,{ maxRows : 10
-           ,onFinishedTyping : function(){setTimeout(self.spawnNew, 2000);} 
-         }
-      );
-    },
 
     spawnNew : function spawnNew() {
       $('#miniTxt').vintageTxt({
@@ -97,16 +71,6 @@ $(function() {
         ,onFinishedTyping : function(){setTimeout(self.finalPage, 1000);}
       });
     },
-
-    finalPage : function finalPage() {
-      self.el.vintageTxt('reset'
-        ,["So there you have it.","And plenty more features,","coming soon!","... in my imagination.","... so proabably never."," ","But never mind that.","Best to enjoy what you have,","and be greatful."," ","ttfn"]
-        ,{  onFinishedTyping: null
-           ,onEnterKey: null
-           ,promptEnabled : true
-         }
-      );
-    }
 
   }
   var self = VintageTxtTest;
