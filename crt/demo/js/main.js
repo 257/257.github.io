@@ -60,7 +60,7 @@ $(function() {
         ,promptEnabled : false
       });
     //var fill_screen = Array(32).join("\n");
-    var fill_screen = ["\n\n\n\n"];
+    var fill_screen = ["empty\n\n\n\n"];
       self.el.vintageTxt('playMany',fill_screen);
       self.el.vintageTxt('playMany',texts);
     },
