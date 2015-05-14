@@ -8,7 +8,6 @@ $(function() {
          text : ["you asked for my resume? coming up..."]
         ,textSpeed: 15
         ,promptEnabled: false
-        ,overlayImage : 'img/lostpcB.png'
         ,onFinishedTyping : this.intro
       });
 
@@ -22,7 +21,7 @@ $(function() {
 ];
 
       self.el.vintageTxt('updateOptions', {
-        textSpeed: 60
+        textSpeed: 10
         ,onFinishedTyping : null
         ,onEnterKey : self.pageOne
         ,promptEnabled : true
