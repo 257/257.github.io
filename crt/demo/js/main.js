@@ -15,8 +15,9 @@ $(function() {
 
     intro : function intro() {
       var texts = [
-        ["Just kidding!","Welcome to the VintageTxt demo."]
-        ,["If you've seen this before and just want the code, click the GitHub thingy in the corner.","Otherwise type your name and hit Enter."]
+["SH EDUCATION"],
+["BA with Distinction in Mathematics and Statistics (Graduated April 2014)"],
+["Biology and Medical Sciences courses from University of Debrecen, Medical School"]
       ];
 
       self.el.vintageTxt('updateOptions', {
