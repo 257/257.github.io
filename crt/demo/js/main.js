@@ -6,11 +6,11 @@ $(function() {
     go : function go() {
       this.el.vintageTxt({
          text : [
-"you asked for my resume? let me find that...",
-"how are you btw?",
-"i'm running bits slow today just give us a sec...",
+["you asked for my resume? let me find that..."],
+["how are you btw?"],
+["i'm running bits slow today just give us a sec...",
 "found it! that's a big one!",
-"there you go before i run ouf of mem:" 
+"there you go before i run ouf of mem:",],
         ]
         ,textSpeed: 16
         ,linePause: 128
