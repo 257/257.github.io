@@ -7,6 +7,7 @@ $(function() {
       this.el.vintageTxt({
          text : ["you asked for my resume? coming up..."]
         ,textSpeed: 16
+        ,linePause: 8
         ,promptEnabled: false
         ,onFinishedTyping : this.edu
       });
@@ -42,7 +43,7 @@ $(function() {
 "2014-Current Pharex Canada                          network admin",]
       ];
 
-      self.el.vintageTxt('reset', {
+      self.el.vintageTxt('updateOptions', {
         onFinishedTyping : self.pageTwo
         ,onEnterKey : null
         ,promptEnabled : false
