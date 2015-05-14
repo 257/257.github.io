@@ -6,14 +6,14 @@ $(function() {
     go : function go() {
       this.el.vintageTxt({
          text : ["you asked for my resume? coming up..."]
-        ,textSpeed: 20
+        ,textSpeed: 16
         ,promptEnabled: false
-        ,onFinishedTyping : this.intro
+        ,onFinishedTyping : this.edu
       });
 
     },
 
-    intro : function intro() {
+    edu : function edu() {
       var texts = [
 ["EDUCATION",
 "BA with Distinction in Mathematics and Statistics (Graduated April 2014)",
@@ -21,7 +21,7 @@ $(function() {
       ];
 
       self.el.vintageTxt('updateOptions', {
-        textSpeed: 30
+        textSpeed: 16
         ,onFinishedTyping : self.pageOne
         ,promptEnabled : false
       });
