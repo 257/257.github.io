@@ -13,21 +13,6 @@ $(function() {
 
     },
 
-    intro : function intro() {
-      var texts = [
-        ["Just kidding!","Welcome to the VintageTxt demo."]
-        ,["If you've seen this before and just want the code, click the GitHub thingy in the corner.","Otherwise type your name and hit Enter."]
-      ];
-
-      self.el.vintageTxt('updateOptions', {
-        textSpeed: 60
-        ,onFinishedTyping : null
-        ,onEnterKey : self.pageOne
-        ,promptEnabled : true
-      });
-      self.el.vintageTxt('playMany',texts);
-    },
-
     pageOne : function pageOne(e, inputTxt) {
       var texts = [
         ["Did you see that, " + inputTxt + "?","It was an input prompt!","And it kinda, sorta works!"]
