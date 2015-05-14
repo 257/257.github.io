@@ -25,7 +25,7 @@ $(function() {
 ["EDUCATION",
 "BA with Distinction in Mathematics and Statistics (Graduated April 2014)",
 "Biology and Medical Sciences courses from University of Debrecen, Medical School",
-"\n"
+"\n",
 "EMPLOYMENT HISTORY",
 "Year         Employer                               Position/Notes",
 "1995-1996    [1] Kesahvarz F.C.                     Midfielder",
