@@ -32,14 +32,14 @@ $(function() {
       var texts = [
 
 ["EMPLOYMENT HISTORY",
-"Year:Employer:Position/Notes",
-"1995-1996:[1] Kesahvarz F.C.:Midfielder",
-"1996-1997:Bazyaft F.C.:Midfielder",
-"1998-2003:Belal Electric Motor MFG Co.:IT Consultant",
-"1998-2003:Self-employed:Tehran's Grand Bazaar",
-"2008-2010:School of Cinema Concordia Uni.:Post-Prod. Assistant, sysadmin",
-"2010-2011:Centre for Digital Arts Concordia Uni.:*nix consultant, sysadmin",
-"2014-Current:Pharex Canada:network admin",]
+"Year         Employer                               Position/Notes",
+"1995-1996    [1] Kesahvarz F.C.                     Midfielder",
+"1996-1997    Bazyaft F.C.                           Midfielder",
+"1998-2003    Belal Electric Motor MFG Co.           IT Consultant",
+"1998-2003    Self-employed                          Tehran's Grand Bazaar",
+"2008-2010    School of Cinema Concordia Uni.        Post-Prod. Assistant, sysadmin",
+"2010-2011    Centre for Digital Arts Concordia Uni. *nix consultant, sysadmin",
+"2014-Current Pharex Canada                          network admin",]
       ];
 
       self.el.vintageTxt('updateOptions', {
