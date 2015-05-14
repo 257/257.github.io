@@ -42,7 +42,7 @@ $(function() {
 "2014-Current Pharex Canada                          network admin",]
       ];
 
-      self.el.vintageTxt('updateOptions', {
+      self.el.vintageTxt('reset', {
         onFinishedTyping : self.pageTwo
         ,onEnterKey : null
         ,promptEnabled : false
