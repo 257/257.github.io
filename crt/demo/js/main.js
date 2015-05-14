@@ -6,8 +6,9 @@ $(function() {
     go : function go() {
       this.el.vintageTxt({
          text : ["you asked for my resume? coming up..."]
-        ,textSpeed: 15
+        ,textSpeed: 300
         ,promptEnabled: false
+        ,overlayImage : 'img/lostpcB.png'
         ,onFinishedTyping : this.intro
       });
 
@@ -15,15 +16,15 @@ $(function() {
 
     intro : function intro() {
       var texts = [
-"EDUCATION\n",
-"BA with Distinction in Mathematics and Statistics (Graduated April 2014)\n",
-"Biology and Medical Sciences courses from University of Debrecen, Medical School\n"
-];
+        ["Just kidding!","Welcome to the VintageTxt demo."]
+        ,["If you've seen this before and just want the code, click the GitHub thingy in the corner.","Otherwise type your name and hit Enter."]
+      ];
 
       self.el.vintageTxt('updateOptions', {
-        textSpeed: 10
+        textSpeed: 60
+        ,onFinishedTyping : null
+        ,onEnterKey : self.pageOne
         ,promptEnabled : false
-        ,onFinishedTyping : self.pageOne
       });
     },
 
