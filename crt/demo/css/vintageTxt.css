@@ -12,7 +12,7 @@
     height: 73%;
     width: 80%;
     padding: 10% 10%;
-    color: #000;
+    color: #0F0;
     font-family: "Courier",fixed,monospace;
     font-size: 14px;
     line-height: 16px;
@@ -34,7 +34,7 @@
 
 .vtxt_wrapper input, .vtxt_wrapper input:focus {
     color: #0f0;
-    background: none;
+    background: #000;
     border: none;
     outline: none;
     font-size: 13px;
