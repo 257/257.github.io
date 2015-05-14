@@ -24,6 +24,7 @@ $(function() {
         ,onFinishedTyping : self.pageOne
         ,promptEnabled : false
       });
+      self.el.vintageTxt('playMany',texts);
     },
 
     pageOne : function pageOne(e, inputTxt) {
