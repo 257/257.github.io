@@ -6,11 +6,29 @@ $(function() {
     go : function go() {
       this.el.vintageTxt({
          text : ["you asked for my resume? coming up..."]
-        ,textSpeed: 10 
+        ,textSpeed: 15
         ,promptEnabled: false
+        ,overlayImage : 'img/lostpcB.png'
         ,onFinishedTyping : this.intro
       });
 
+    },
+
+    intro : function intro() {
+      var texts = [
+        [
+"EDUCATION
+BA with Distinction in Mathematics and Statistics (Graduated April 2014)
+Biology and Medical Sciences courses from University of Debrecen, Medical School"
+      ];
+
+      self.el.vintageTxt('updateOptions', {
+        textSpeed: 60
+        ,onFinishedTyping : null
+        ,onEnterKey : self.pageOne
+        ,promptEnabled : true
+      });
+      self.el.vintageTxt('playMany',texts);
     },
 
     pageOne : function pageOne(e, inputTxt) {
