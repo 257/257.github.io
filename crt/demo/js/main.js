@@ -56,7 +56,7 @@ $(function() {
       self.el.vintageTxt('updateOptions', {
         textSpeed : 4
         ,linePause : 1024
-        ,maxRows : 16
+        ,maxRows : 32
         ,onFinishedTyping : null
         ,promptEnabled : false
       });
