@@ -7,7 +7,8 @@ blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q,
 samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
 aside, figure, footer, header, menu, nav, section, time, mark, audio, video,
-details, summary { margin: 0;
+details, summary {
+  margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
@@ -241,7 +242,7 @@ button {
 /* line 26, ../../_sass/main.scss */
 body {
   font: normal 300 20px/1.75em 'Whitney SSm A', 'Whitney SSm B', Arial, Helvetica, sans-serif;
-  color: #777b91;
+  color: #3e7f50;
   background: #edeef1 url('../img/pat.png?1390123745');
 }
 
