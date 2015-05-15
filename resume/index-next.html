@@ -5,25 +5,11 @@
     <link rel="stylesheet" type="text/css" href="../css/main-next.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="../js/typed.js"></script>
-
-    <table id="foo">
-    </table>
-    <script>
-      function print_row() {
-          var table = document.getElementById("foo");
-          var row = table.insertRow(0);
-          var cell1 = row.insertCell(0);
-          var cell2 = row.insertCell(1);
-          cell1.innerHTML = "NEW CELL1";
-          cell2.innerHTML = "NEW CELL2";
-      }
-    </script>
-
     <script>
 $(function(){
-    $(".resume").typed({strings: [
+    $(".resume").typed({
+      strings: [
       "<b> \
-      EMPLOYMENT HISTORY<br>\
       you asked for my resume?<br>\
       ^2048\
       excellent sir!<br>\
@@ -39,16 +25,39 @@ $(function(){
       BA with Distinction in Mathematics and Statistics (Graduated April 2014)<br>\
       Biology and Medical Sciences courses from University of Debrecen, Medical School<br>\
       <br>\
-      Image deployment           deploy studio"],
-      typeSpeed: 0
+      EMPLOYMENT HISTORY<br>\
+Year Employer Position/Notes<br>\
+1995-1996\t\t[1] Kesahvarz F.C.\t\tMidfielder<br>\
+1996-1997                  Bazyaft F.C.                           Midfielder<br>\
+1998-2003                  Belal Electric Motor MFG Co.           IT Consultant<br>\
+1998-2003                  Self-employed                          Tehran's Grand Bazaar<br>\
+2008-2010                  School of Cinema Concordia Uni.        Post-Prod. Assistant, sysadmin<br>\
+2010-2011                  Centre for Digital Arts Concordia Uni. *nix consultant, sysadmin<br>\
+2014-Current               Pharex Canada                          network admin<br>\
+<br>\
+SPOKEN LANGUAGES<br>\
+Fluent                     English, Farsi, Azerbaijani<br>\
+resumeary                 French<br>\
+<br>\
+PROGRAMMING LANGUAGES, TECHNICAL CERTIFICATES, etc<br>\
+Programming Languages      C, make, sh, python, Mathematica, R<br>\
+Open source collaborations openwrt, gentoo<br>\
+Certificates               Apple Certified Support Professional 10.5 (ACSP)<br>\
+<br>\
+Server Administration<br>\
+Network                    DNS, DHCP, QoS, VoIP/sip, VPN, edgeos (vyatta/vyos fork) admin<br>\
+                           Currently am ISP to my own résidence (7 units plus Pharex Canada)<br>\
+Directory services         Open Directory (OSX version of openldap), kerborized triangle<br>\
+Image deployment           deploy studio"
+],
+  typeSpeed: 0
         });
     });
-
     </script>
   </head>
   <body>
     <div id="holder">
-      <script>print_row();</script>
+      <span class="resume"></span>
     </div>
   </body>
 </html>
