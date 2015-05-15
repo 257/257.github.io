@@ -6,6 +6,18 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="../js/typed.js"></script>
 
+    <table id="foo">
+    </table>
+    <script>
+      function print_row() {
+          var table = document.getElementById("foo");
+          var row = table.insertRow(0);
+          var cell1 = row.insertCell(0);
+          var cell2 = row.insertCell(1);
+          cell1.innerHTML = "NEW CELL1";
+          cell2.innerHTML = "NEW CELL2";
+      }
+    </script>
 
     <script>
 $(function(){
@@ -35,20 +47,8 @@ $(function(){
     </script>
   </head>
   <body>
-
-    <table id="foo">
-    </table>
-    <script>
-      function print_row() {
-          var table = document.getElementById("foo");
-          var row = table.insertRow(0);
-          var cell1 = row.insertCell(0);
-          var cell2 = row.insertCell(1);
-          cell1.innerHTML = "NEW CELL1";
-          cell2.innerHTML = "NEW CELL2";
-      }
+  <script>
       print_row();
-    </script>
-
+  </script>
   </body>
 </html>
