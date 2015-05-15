@@ -1603,7 +1603,6 @@ a.tweet-it {
 /* line 61, ../../_sass/404.scss */
 #not-found body .typed-cursor {
   display: none;
-  color: #1ee500;
 }
 
 @-moz-keyframes blink {
