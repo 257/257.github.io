@@ -85,6 +85,8 @@ abbr[title], dfn[title] {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  font-weight: bold;
+  width: 100%;
 }
 
 /* line 43, ../../_sass/reset.scss */
