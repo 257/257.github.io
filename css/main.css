@@ -12,7 +12,7 @@ details, summary { margin: 0;
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
-  background: transparent;
+  background: #000000;
 }
 
 /* consider resetting the default cursor:
