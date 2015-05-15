@@ -1547,7 +1547,7 @@ a.tweet-it {
   background-position: 0 0%;
   background-attachment: fixed;
   font-size: 21px;
-  font-family: "Lucida Console", monospace;
+  font-family: Terminus, "Lucida Console", monospace;
   font-smooth: never;
   line-height: 2em;
   color: #33ff33;
