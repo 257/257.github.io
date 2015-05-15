@@ -1565,7 +1565,7 @@ a.tweet-it {
   margin: 0 auto;
 }
 /* line 32, ../../_sass/404.scss */
-#not-found body #element {
+#not-found body #resume {
   padding: 10px;
   max-width: 100%;
   display: block;
@@ -1573,7 +1573,7 @@ a.tweet-it {
   line-height: 1.25em;
 }
 /* line 38, ../../_sass/404.scss */
-#not-found body #element:after {
+#not-found body #resume:after {
   visibility: visible;
   content: 'text';
   background-color: #d4f8e3;
