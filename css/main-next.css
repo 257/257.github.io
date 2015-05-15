@@ -87,6 +87,7 @@ table {
   border-spacing: 0;
   font-weight: bold;
   width: 100%;
+  text-align: left;
 }
 
 /* line 43, ../../_sass/reset.scss */
