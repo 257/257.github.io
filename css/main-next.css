@@ -1550,7 +1550,7 @@ a.tweet-it {
   font-family: Inconsolata, "Lucida Console", Monaco, Courier, monospace;
   font-smooth: never;
   line-height: 2em;
-  color: #d4f8e3;
+  color: #33ff33;
   -webkit-font-smoothing: none;
   text-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
   -moz-animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
