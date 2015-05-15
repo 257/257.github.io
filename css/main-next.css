@@ -1566,9 +1566,11 @@ a.tweet-it {
 }
 /* line 32, ../../_sass/404.scss */
 #not-found body #resume {
+  text-transform: uppercase;
   padding: 10px;
   max-width: 100%;
   display: block;
+  line-height: 1.25em;
 }
 /* line 38, ../../_sass/404.scss */
 #not-found body #resume:after {
