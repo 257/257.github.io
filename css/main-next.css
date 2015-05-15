@@ -1561,6 +1561,7 @@ a.tweet-it {
 #not-found body #holder {
   display: table-cell;
   vertical-align: bottom;
+  text-transform: uppercase;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -1573,7 +1574,6 @@ a.tweet-it {
 }
 /* line 38, ../../_sass/404.scss */
 #not-found body #resume:after {
-  text-transform: uppercase;
   visibility: visible;
   content: 'text';
   background-color: #d4f8e3;
