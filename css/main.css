@@ -15,19 +15,19 @@ details, summary { margin: 0;
   background: transparent;
 }
 
-/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+/* consider resetting the default cursor:
+ * https://gist.github.com/murtaugh/5247154 */
 /* line 12, ../../_sass/reset.scss */
 article, aside, figure, footer, header, nav, section, details, summary {
   display: block;
 }
 
 /* Responsive images and other embedded objects
-   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
-   If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
+   Note: keeping IMG here will cause problems if you're using foreground images
+   as sprites.  If this default setting for images is causing issues, you might
+   want to replace it with a .responsive class instead. */
 /* line 17, ../../_sass/reset.scss */
-img,
-object,
-embed {
+img, object, embed {
   max-width: 100%;
 }
 
@@ -38,7 +38,7 @@ html {
 }
 
 /* we use a lot of ULs that aren't bulleted. 
-	don't forget to restore the bullets within content. */
+  don't forget to restore the bullets within content. */
 /* line 26, ../../_sass/reset.scss */
 ul {
   list-style: none;
@@ -242,7 +242,7 @@ button {
 body {
   font: normal 300 20px/1.75em 'Whitney SSm A', 'Whitney SSm B', Arial, Helvetica, sans-serif;
   color: #777b91;
-  background: #edeef1 url('../img/pat.png?1390123745');
+  background: #000
 }
 
 /* line 32, ../../_sass/main.scss */
