@@ -1576,7 +1576,7 @@ a.tweet-it {
 #not-found body .resume:after {
   visibility: visible;
   content: '';
-  background-color: #11f8e3;
+  background-color: #33ff33;
   display: inline-block;
   position: relative;
   width: 0.5em;
