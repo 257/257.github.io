@@ -1566,7 +1566,6 @@ a.tweet-it {
 }
 /* line 32, ../../_sass/404.scss */
 #not-found body #resume {
-  text-transform: uppercase;
   padding: 10px;
   max-width: 100%;
   display: block;
@@ -1574,6 +1573,7 @@ a.tweet-it {
 }
 /* line 38, ../../_sass/404.scss */
 #not-found body #resume:after {
+  text-transform: uppercase;
   visibility: visible;
   content: 'text';
   background-color: #d4f8e3;
