@@ -1575,7 +1575,7 @@ a.tweet-it {
 /* line 38, ../../_sass/404.scss */
 #not-found body #element:after {
   visibility: visible;
-  content: '';
+  content: 'text';
   background-color: #d4f8e3;
   display: inline-block;
   position: relative;
