@@ -20,7 +20,7 @@ details, summary {
 /* consider resetting the default cursor:
  * https://gist.github.com/murtaugh/5247154 */
 /* line 12, ../../_sass/reset.scss */
-article, aside, figure, footer, header, nav, section, details, summary {
+article, aside, code, figure, footer, header, nav, section, details, summary {
   display: block;
   color: #1ee500;
 }
