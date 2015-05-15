@@ -6,43 +6,43 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="../js/typed.js"></script>
 
+<style>
+  <table id="foo">
+  </table>
+</style>
+
+<script>
+  function print_row() {
+      var table = document.getElementById("foo");
+      var row = table.insertRow(0);
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      cell1.innerHTML = "NEW CELL1";
+      cell2.innerHTML = "NEW CELL2";
+  }
+</script>
+
     <script>
 $(function(){
     $(".resume").typed({
       strings: [
       "<b> \
-      EMPLOYMENT HISTORY\n\
-    <style>\
-      <table id=\"foo\">\
-      </table>\
-    </style>\
-\
-<script>\
-function print_row() {\
-    var table = document.getElementById("foo");\
-    var row = table.insertRow(0);\
-    var cell1 = row.insertCell(0);\
-    var cell2 = row.insertCell(1);\
-    cell1.innerHTML = "NEW CELL1";\
-    cell2.innerHTML = "NEW CELL2";\
-}\
-print_row();\
-</script>\
-      you asked for my resume?\n\
+      EMPLOYMENT HISTORY<br>\
+      you asked for my resume?<br>\
       ^2048\
-      excellent sir!\n\
+      excellent sir!<br>\
       ^1024\
-      let me find that first...^2048\n\
-      how are we doing today, btw?\n\
+      let me find that first...^2048<br>\
+      how are we doing today, btw?<br>\
       ^2048\
-      running bits slow today; give us a sec...^2048\n\
-      ok, found it! oh it is a big one! it is leaking out me mem...^1024\n\
-      well before that happens; there you go :\n\
-      \n\
-      EDUCATION\n\
-      BA with Distinction in Mathematics and Statistics (Graduated April 2014)\n\
-      Biology and Medical Sciences courses from University of Debrecen, Medical School\n\
-      \n\
+      running bits slow today; give us a sec...^2048<br>\
+      ok, found it! oh it is a big one! it is leaking out me mem...^1024<br>\
+      well before that happens; there you go :<br>\
+      <br>\
+      EDUCATION<br>\
+      BA with Distinction in Mathematics and Statistics (Graduated April 2014)<br>\
+      Biology and Medical Sciences courses from University of Debrecen, Medical School<br>\
+      <br>\
       Image deployment           deploy studio"],
       typeSpeed: 0
         });
