@@ -1540,7 +1540,6 @@ a.tweet-it {
 
 /* line 11, ../../_sass/404.scss */
 #not-found body {
-  text-transform: uppercase;
   position: relative;
   background-color: #1d2b2a;
   background-image: url(/assets/img/404-stripe.png), url(/assets/img/404-noise.png);
@@ -1567,6 +1566,7 @@ a.tweet-it {
 }
 /* line 32, ../../_sass/404.scss */
 #not-found body #resume {
+  text-transform: uppercase;
   padding: 10px;
   max-width: 100%;
   display: block;
