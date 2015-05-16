@@ -1,11 +1,7 @@
 /* @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400); */
-@import url('../fonts/Microstyle Bold Extended ATT.ttf');
 @font-face {
   font-family: "Microstyle Bold Extended ATT.ttf";
-  src url('./fonts/Microstyle Bold Extended ATT.ttf');
-}
-* {
-  font-family: "Microstyle Bold Extended ATT.ttf";
+  src url('../fonts/Microstyle Bold Extended ATT.ttf');
 }
 /* line 1, ../../_sass/reset.scss */
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
@@ -41,7 +37,6 @@ details, summary {
   background-position: 0 0%;
   background-attachment: fixed;
   font-size: 21px;
-  font-family: "Microstyle Bold Extended ATT.ttf";
   font-smooth: never;
   line-height: 2em;
   color: #33ff33;
