@@ -10,10 +10,10 @@
       border: 1px solid black;
   }
 </style>
-<table id="myTable">
+<table id="career">
 </table>
 <script>
-  function myFunction() {
+  function gen_resume() {
     var x = document.createElement("TABLE");
     x.setAttribute("id", "career");
     document.body.appendChild(x);
@@ -33,7 +33,7 @@
 $(function(){
     $(".resume").typed({
       /* strings: ["<b>hello world!\n" ],*/
-      strings: myFunction();
+      strings: gen_resume();
   typeSpeed: 0
         });
     });
