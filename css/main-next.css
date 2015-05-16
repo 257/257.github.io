@@ -2,7 +2,7 @@
 @import url('../fonts/Microstyle Bold Extended ATT.ttf');
 @font-face {
   font-family: "Microstyle Bold Extended ATT.ttf";
-  src url('../fonts/Microstyle Bold Extended ATT.ttf');
+  src url('./fonts/Microstyle Bold Extended ATT.ttf');
 }
 * {
   font-family: "Microstyle Bold Extended ATT.ttf";
