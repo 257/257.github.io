@@ -56,7 +56,8 @@ details, summary {
 /* line 32, ../../_sass/404.scss */
 #not-found body .resume {
   text-transform: uppercase;
-  font-family: "Microstyle Bold Extended ATT";
+  font-family: "BankGothic Md BT";
+  /* font-family: "Microstyle Bold Extended ATT";*/
   padding: 10px;
   max-width: 100%;
   display: block;
