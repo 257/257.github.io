@@ -85,9 +85,6 @@ abbr[title], dfn[title] {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  font-weight: bold;
-  width: 100%;
-  text-align: left;
 }
 
 /* line 43, ../../_sass/reset.scss */
@@ -1550,10 +1547,10 @@ a.tweet-it {
   background-position: 0 0%;
   background-attachment: fixed;
   font-size: 21px;
-  font-family: Fixed, Terminus, "Lucida Console", monospace;
+  font-family: Inconsolata, "Lucida Console", Monaco, Courier, monospace;
   font-smooth: never;
   line-height: 2em;
-  color: #33ff33;
+  color: #d4f8e3;
   -webkit-font-smoothing: none;
   text-shadow: -2px 0 0px rgba(0, 0, 225, 0.4), -1px 0 3px rgba(103, 171, 236, 0.6), 1px 0 4px rgba(69, 112, 204, 0.5);
   -moz-animation: blink 0.1s steps(2, start) infinite, skip 7s linear infinite, flicker 0.1s steps(2, start) infinite;
@@ -1568,18 +1565,18 @@ a.tweet-it {
   margin: 0 auto;
 }
 /* line 32, ../../_sass/404.scss */
-#not-found body .resume {
-  text-transform: uppercase;
+#not-found body #story {
   padding: 10px;
   max-width: 100%;
   display: block;
+  white-space: pre;
   line-height: 1.25em;
 }
 /* line 38, ../../_sass/404.scss */
-#not-found body .resume:after {
+#not-found body #story:after {
   visibility: visible;
   content: '';
-  background-color: #33ff33;
+  background-color: #d4f8e3;
   display: inline-block;
   position: relative;
   width: 0.5em;
