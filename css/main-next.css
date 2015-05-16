@@ -56,6 +56,7 @@ details, summary {
 /* line 32, ../../_sass/404.scss */
 #not-found body .resume {
   text-transform: uppercase;
+  font-family: "BankGothic Md BT";
   padding: 10px;
   max-width: 100%;
   display: block;
