@@ -13,4 +13,5 @@
     z.appendChild(t);
     document.getElementById("95-96").appendChild(z);
   }
+gen_resume();
 </script>
