@@ -14,6 +14,6 @@ function gen_resume() {
   document.getElementById("95-96").appendChild(z);
 }
 function say_hello(){
-  return "hellp world";
+  return ["hellp world"];
 }
 </script>
