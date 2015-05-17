@@ -12,6 +12,5 @@
     var t = document.createTextNode("1995-1996");
     z.appendChild(t);
     document.getElementById("95-96").appendChild(z);
-    return x;
   }
 </script>
