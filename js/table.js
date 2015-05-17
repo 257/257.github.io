@@ -1,4 +1,4 @@
-function gen_resume() {
+function gen_resume(){
   var x = document.createElement("TABLE");
   x.setAttribute("id", "career");
   document.body.appendChild(x);
