@@ -13,7 +13,7 @@ function gen_resume() {
   document.getElementById("95-96").appendChild(z);
   return x;
 }
-function say_hello() {
+function say_hello(){
   return ["hellp world"];
 }
 
