@@ -1,4 +1,3 @@
-<script>
 function gen_resume() {
   var x = document.createElement("TABLE");
   x.setAttribute("id", "career");
@@ -13,4 +12,3 @@ function gen_resume() {
   z.appendChild(t);
   document.getElementById("95-96").appendChild(z);
 }
-</script>
