@@ -5,34 +5,12 @@
     <link rel="stylesheet" type="text/css" href="../css/main-next.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="../js/typed.js"></script>
-<style>
-  table, td {
-      border: 1px solid black;
-  }
-</style>
-<script>
-  function gen_resume() {
-    var x = document.createElement("TABLE");
-    x.setAttribute("id", "career");
-    document.body.appendChild(x);
-
-    var y = document.createElement("TR");
-    y.setAttribute("id", "95-96");
-    document.getElementById("career").appendChild(y);
-
-    var z = document.createElement("TD");
-    var t = document.createTextNode("1995-1996");
-    z.appendChild(t);
-    document.getElementById("95-96").appendChild(z);
-    return x;
-  }
-</script>
     <script>
 $(function(){
     $(".resume").typed({
-strings: ["hello world!"];
-typeSpeed: 0
-});
+      strings: ["<b>hello world!\n" ],
+  typeSpeed: 0
+        });
     });
     </script>
   </head>
