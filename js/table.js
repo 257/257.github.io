@@ -12,3 +12,6 @@ function gen_resume() {
   z.appendChild(t);
   document.getElementById("95-96").appendChild(z);
 }
+function say_hello(){
+  return ["hellp world"];
+}
