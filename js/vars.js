@@ -1,4 +1,4 @@
-var tbl_man = "\
+var man_tbl = "\
   EMPLOYMENT HISTORY|\
   Year:Employer:Position/Notes|\
   1995-1996:Kesahvarz F.C.:Midfielder|\
