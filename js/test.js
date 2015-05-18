@@ -44,10 +44,10 @@ function generate_table(t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-    tblBody.appendChild(row);
-    tbl.appendChild(tblBody);
     setTimeout(function(){
-      body.appendChild(tbl);
+      tblBody.appendChild(row);
+      tbl.appendChild(tblBody);
     },500);
+    body.appendChild(tbl);
   }
 }
