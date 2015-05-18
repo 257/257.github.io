@@ -38,14 +38,14 @@ function generate_table(t) {
       var cellText = document.createTextNode(cells[c]);
       cell.appendChild(cellText);
       row.appendChild(cell);
-    }
-
-    // add the row to the end of the table body
     tblBody.appendChild(row);
     tbl.appendChild(tblBody);
     setTimeout(function() {
       body.appendChild(tbl);
     }, 3000);
+    }
+
+    // add the row to the end of the table body
   }
 
   // put the <tbody> in the <table>
