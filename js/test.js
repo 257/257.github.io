@@ -16,7 +16,7 @@ function generate_table(t) {
   var tblBody = document.createElement("tbody");
 
   // creating all cells
-  for (var r = 0; r < lines.length; r++) {
+  for (var r = 1; r < lines.length; r++) {
     // creates a table row
     var row = document.createElement("tr");
     var cells = lines[r].split(':');
