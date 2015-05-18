@@ -13,10 +13,11 @@ function generate_table(t) {
 
   // creates a <table> element and a <tbody> element
   var tbl     = document.createElement("table");
+
   var tblHead = document.createElement("thead");
-      var hcell = document.createElement("th");
-      var hcellText = document.createTextNode(lines[0]);
-      hcell.appendChild(hcellText);
+  var hcell = document.createElement("th");
+  var hcellText = document.createTextNode(lines[1]);
+  hcell.appendChild(hcellText);
 
   var tblBody = document.createElement("tbody");
 
