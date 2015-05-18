@@ -44,21 +44,11 @@ function generate_table(t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-
-    /*
-    // add the row to the end of the table body
+    tblBody.appendChild(row);
+    tbl.appendChild(tblHead);
+    tbl.appendChild(tblBody);
     setTimeout(function(){
-      tblBody.appendChild(row);
-      // put the <tbody> in the <table>
-      tbl.appendChild(tblHead);
-      tbl.appendChild(tblBody);
-      // appends <table> into <body>
       body.appendChild(tbl);
     },500);
-    */
   }
-
-  // sets the border attribute of tbl to 2;
-  /* tbl.setAttribute("border", "1"); */
-  // return tbl;
 }
