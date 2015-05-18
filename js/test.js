@@ -56,8 +56,8 @@ function generate_table() {
   // put the <tbody> in the <table>
   tbl.appendChild(tblBody);
   // appends <table> into <body>
-  body.appendChild(tbl);
+  /* body.appendChild(tbl); */
   // sets the border attribute of tbl to 2;
-  // tbl.setAttribute("border", "1");
-  return ["tbl"];
+  /* tbl.setAttribute("border", "1"); */
+  return [tbl];
 }
