@@ -47,7 +47,7 @@ function generate_table(t) {
 
     tblBody.appendChild(row);
     tbl.appendChild(tblBody);
-    update_table(tbl);
+    update_table(this.tbl);
   }
 }
 function update_table(t) {
