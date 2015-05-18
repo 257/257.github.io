@@ -1,5 +1,5 @@
 function say_hello() {
- return ["hello world"]
+ document.write("hello world");
 }
 
 function generate_table() {
@@ -63,5 +63,5 @@ function generate_table() {
   body.appendChild(tbl); */
   // sets the border attribute of tbl to 2;
   /* tbl.setAttribute("border", "1"); */
-  return body;
+  document.write(body);
 }
