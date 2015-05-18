@@ -8,7 +8,7 @@ function generate_table(t) {
   var body    = document.getElementsByTagName("body")[0];
   
   // printout the header first
-  body.appendChild(lines[0]);
+  // body.appendChild(lines[0]);
 
   // creates a <table> element and a <tbody> element
   var tbl     = document.createElement("table");
