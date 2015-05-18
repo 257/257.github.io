@@ -40,8 +40,8 @@ function generate_table(t) {
       row.appendChild(cell);
     setTimeout(function() {
       tblBody.appendChild(row);
-    tbl.appendChild(tblBody);
     }, 3000);
+    tbl.appendChild(tblBody);
       body.appendChild(tbl);
     }
 
