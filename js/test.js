@@ -16,6 +16,7 @@ function generate_table(t) {
 
   var tblHead = document.createElement("thead");
   var hcell = document.createElement("th");
+  hcell.style.cssFloat = "left";
   tblHead.appendChild(hcell);
   var hcellText = document.createTextNode(lines[0]);
   hcell.appendChild(hcellText);
