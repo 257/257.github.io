@@ -54,5 +54,5 @@ function generate_table(t) {
 function update_table(t) {
     setTimeout(function(){
       body.appendChild(t);
-    }, 10000);
+    }, 1000);
 }
