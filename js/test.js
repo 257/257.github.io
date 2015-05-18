@@ -3,9 +3,12 @@ function say_hello() {
 }
 
 function generate_table(t) {
-  var lines = t.split('|');
+  var lines   = t.split('|');
   // get the reference for the body
-  var body = document.getElementsByTagName("body")[0];
+  var body    = document.getElementsByTagName("body")[0];
+  
+  // printout the header first
+  body.appendChild(lines[0]);
 
   // creates a <table> element and a <tbody> element
   var tbl     = document.createElement("table");
