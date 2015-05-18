@@ -20,7 +20,7 @@ function generate_table(t) {
   tblHead.appendChild(hcell);
   var hcellText = document.createTextNode(lines[0]);
   hcell.appendChild(hcellText);
-  // put the <tbody> in the <table>
+  tbl.appendChild(tblHead);
 
   var tblBody = document.createElement("tbody");
 
@@ -45,7 +45,6 @@ function generate_table(t) {
       row.appendChild(cell);
     }
     tblBody.appendChild(row);
-    tbl.appendChild(tblHead);
     tbl.appendChild(tblBody);
     setTimeout(function(){
       body.appendChild(tbl);
