@@ -47,6 +47,6 @@ function generate_table(t) {
 
     tblBody.appendChild(row);
     tbl.appendChild(tblBody);
-    setTimeout(body.appendChild, 10000, tbl);
+    setTimeout(this.body.appendChild, 10000, tbl);
   }
 }
