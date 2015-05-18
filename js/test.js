@@ -20,6 +20,7 @@ function generate_table(t) {
   tblHead.appendChild(hcell);
   var hcellText = document.createTextNode(lines[0]);
   hcell.appendChild(hcellText);
+  tbl.appendChild(tblHead);
 
   var tblBody = document.createElement("tbody");
 
@@ -41,15 +42,14 @@ function generate_table(t) {
 
     // add the row to the end of the table body
     tblBody.appendChild(row);
+    tbl.appendChild(tblBody);
+    setTimeout(function() {
+      body.appendChild(tbl);
+    }, 3000);
   }
 
   // put the <tbody> in the <table>
-  tbl.appendChild(tblHead);
-  setTimeout(function() {
-    tbl.appendChild(tblBody);
-  }, 3000);
   // appends <table> into <body>
-  body.appendChild(tbl);
   // sets the border attribute of tbl to 2;
   /* tbl.setAttribute("border", "1"); */
   // return tbl;
