@@ -45,9 +45,9 @@ function generate_table(t) {
       row.appendChild(cell);
     }
 
-    tblBody.appendChild(row);
-    tbl.appendChild(tblBody);
     setTimeout(function(){
+      this.tblBody.appendChild(row);
+      this.tbl.appendChild(tblBody);
       this.body.appendChild(tbl);
     },500);
   }
