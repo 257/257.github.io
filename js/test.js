@@ -45,6 +45,7 @@ function generate_table(t) {
       row.appendChild(cell);
     }
 
+    /*
     // add the row to the end of the table body
     setTimeout(function(){
       tblBody.appendChild(row);
@@ -54,6 +55,7 @@ function generate_table(t) {
       // appends <table> into <body>
       body.appendChild(tbl);
     },500);
+    */
   }
 
   // sets the border attribute of tbl to 2;
