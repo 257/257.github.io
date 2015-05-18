@@ -38,10 +38,10 @@ function generate_table(t) {
       var cellText = document.createTextNode(cells[c]);
       cell.appendChild(cellText);
       row.appendChild(cell);
+      tblBody.appendChild(row);
       setTimeout(function() {
-        tblBody.appendChild(row);
+        tbl.appendChild(tblBody);
       }, 3000);
-      tbl.appendChild(tblBody);
       body.appendChild(tbl);
     }
 
