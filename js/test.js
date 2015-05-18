@@ -20,6 +20,11 @@ function generate_table(t) {
   tblHead.appendChild(hcell);
   var hcellText = document.createTextNode(lines[0]);
   hcell.appendChild(hcellText);
+  // put the <tbody> in the <table>
+  tbl.appendChild(tblHead);
+  tbl.appendChild(tblBody);
+  // appends <table> into <body>
+  body.appendChild(tbl);
 
   var tblBody = document.createElement("tbody");
 
@@ -40,17 +45,17 @@ function generate_table(t) {
     }
 
     // add the row to the end of the table body
-    tblBody.appendChild(row);
+    setTimeout(function(){
+      tblBody.appendChild(row);
+      // put the <tbody> in the <table>
+      tbl.appendChild(tblHead);
+      tbl.appendChild(tblBody);
+      // appends <table> into <body>
+      body.appendChild(tbl);
+    },500);
   }
 
-  // put the <tbody> in the <table>
-  tbl.appendChild(tblHead);
-  tbl.appendChild(tblBody);
-  // appends <table> into <body>
-  body.appendChild(tbl);
   // sets the border attribute of tbl to 2;
   /* tbl.setAttribute("border", "1"); */
   // return tbl;
-  //document.getElementById('txt').innerHTML = 
-   // var t = setTimeout(function(){startTime()},500);
 }
