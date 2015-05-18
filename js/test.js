@@ -2,8 +2,8 @@ function say_hello() {
  document.write("hello world");
 }
 
-function generate_table(tbl_man) {
-  var lines = tbl_man.split('|');
+function generate_table(t) {
+  var lines = t.split('|');
   // get the reference for the body
   var body = document.getElementsByTagName("body")[0];
 
