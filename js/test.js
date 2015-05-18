@@ -1,3 +1,7 @@
+function say_hello() {
+ return ["hello world"]
+}
+
 function generate_table() {
   var tbl_man = "\
     EMPLOYMENT HISTORY|\
