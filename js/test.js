@@ -47,9 +47,11 @@ function generate_table(t) {
 
     tblBody.appendChild(row);
     tbl.appendChild(tblBody);
-    update_table(this.tbl);
+    update_table(tbl);
   }
 }
 function update_table(t) {
-    setTimeout(body.appendChild, 1000, t);
+    setTimeout(function(){
+      body.appendChild(t);
+    }, 1000);
 }
