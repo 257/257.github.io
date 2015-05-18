@@ -50,6 +50,6 @@ function generate_table(t) {
     body.appendChild(tbl);
   }
 }
-function print_row(r) {
-    setTimeout(tblBody.appendChild, 100, r);
+function print_row(x) {
+    setTimeout(tblBody.appendChild, 100, x);
 }
