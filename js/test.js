@@ -45,7 +45,9 @@ function generate_table(t) {
 
   // put the <tbody> in the <table>
   tbl.appendChild(tblHead);
-  tbl.appendChild(tblBody);
+  setTimeout(function() {
+    tbl.appendChild(tblBody);
+  }, 3000);
   // appends <table> into <body>
   body.appendChild(tbl);
   // sets the border attribute of tbl to 2;
