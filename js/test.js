@@ -38,11 +38,11 @@ function generate_table(t) {
       var cellText = document.createTextNode(cells[c]);
       cell.appendChild(cellText);
       row.appendChild(cell);
-    tblBody.appendChild(row);
-    tbl.appendChild(tblBody);
     setTimeout(function() {
-      body.appendChild(tbl);
+      tblBody.appendChild(row);
+    tbl.appendChild(tblBody);
     }, 3000);
+      body.appendChild(tbl);
     }
 
     // add the row to the end of the table body
