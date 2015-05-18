@@ -41,6 +41,7 @@ function generate_table(t) {
   }
 
   // put the <tbody> in the <table>
+  tbl.appendChild(tblHead);
   tbl.appendChild(tblBody);
   // appends <table> into <body>
   body.appendChild(tbl);
