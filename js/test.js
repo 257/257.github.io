@@ -42,10 +42,10 @@ function generate_table(t) {
 
     setTimeout(function(){
       // add the row to the end of the table body
-      tblBody.appendChild(row);
-      tbl.appendChild(tblBody);
+      body.appendChild(row);
+      // tbl.appendChild(tblBody);
       // appends <table> into <body>
-      body.appendChild(tbl);
+      // body.appendChild(tbl);
     }, 3000);
   }
 
