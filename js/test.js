@@ -59,5 +59,5 @@ function generate_table() {
   /* body.appendChild(tbl); */
   // sets the border attribute of tbl to 2;
   /* tbl.setAttribute("border", "1"); */
-  return tbl;
+  return [ "<pre>" + tbl + "</pre>"];
 }
