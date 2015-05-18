@@ -38,18 +38,18 @@ function generate_table(t) {
       var cellText = document.createTextNode(cells[c]);
       cell.appendChild(cellText);
       row.appendChild(cell);
-      tblBody.appendChild(row);
-      tbl.appendChild(tblBody);
-      setTimeout(function() {
-        body.appendChild(tbl);
-      }, 3000);
     }
 
-    // add the row to the end of the table body
+    setTimeout(function(){
+      // add the row to the end of the table body
+      tblBody.appendChild(row);
+      tbl.appendChild(tblBody);
+      // appends <table> into <body>
+      body.appendChild(tbl);
+    }, 3000);
   }
 
   // put the <tbody> in the <table>
-  // appends <table> into <body>
   // sets the border attribute of tbl to 2;
   /* tbl.setAttribute("border", "1"); */
   // return tbl;
