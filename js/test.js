@@ -1,6 +1,3 @@
-function say_hello() {
- document.write("hello world");
-}
 
 function generate_table() {
   var tbl_man = "\
