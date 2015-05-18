@@ -16,7 +16,7 @@ function generate_table(t) {
 
   var tblHead = document.createElement("thead");
   var hcell = document.createElement("th");
-  var hcellText = document.createTextNode(lines[1]);
+  var hcellText = document.createTextNode(lines[0]);
   hcell.appendChild(hcellText);
 
   var tblBody = document.createElement("tbody");
