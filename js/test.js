@@ -45,11 +45,11 @@ function generate_table(t) {
       row.appendChild(cell);
     }
 
-    print_row(row)
+    print_row(row);
     tbl.appendChild(tblBody);
     body.appendChild(tbl);
   }
 }
-function print_row(x) {
-    setTimeout(tblBody.appendChild, 100, x);
+function print_row(r) {
+    setTimeout(tblBody.appendChild, 1000, r);
 }
