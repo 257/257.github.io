@@ -4,21 +4,13 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../css/test.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="../js/typed.js"></script>
     <script src="../js/test.js"></script>
-    <script>
-$(function(){
-    $(".resume").typed({
-      strings: generate_table(),
-      contentType: 'html',
-      typeSpeed: 0
-});
-    });
-    </script>
   </head>
   <body>
     <div id="holder">
-      <span class="resume"></span>
+      <script>
+        generate_table(),
+      </script>
     </div>
   </body>
 </html>
