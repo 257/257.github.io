@@ -45,7 +45,7 @@ function generate_table(t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-    tblBody.appendChild(self.row);
+    setTimeout(tblBody.appendChild, 1000, self.row);
     tbl.appendChild(tblBody);
     body.appendChild(tbl);
   }
