@@ -32,9 +32,9 @@ function generate_table(t) {
   // creating all cells
   for (var r = 1; r < lines.length; r++) {
     // creates a table row
+    var self = this;
     var row = document.createElement("tr");
     var cells = lines[r].split(':');
-    var self = this;
 
     for (var c = 0; c < cells.length; c++) {
       // Create a <td> element and a text node, make the text
@@ -45,7 +45,7 @@ function generate_table(t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-    setTimeout(tblBody.appendChild, 1000, row);
+    tblBody.appendChild(self.row);
     tbl.appendChild(tblBody);
     body.appendChild(tbl);
   }
