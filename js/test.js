@@ -30,8 +30,11 @@ function generate_table(t) {
   body.appendChild(tbl);
 
   // creating all cells
-  for (var r = 1; r < lines.length; r++)
+  for (var r = 1; r < lines.length; r++) {
     append_row(lines[r],tblBody);
+    tbl.appendChild(tblBody);
+    body.appendChild(tbl);
+  }
 }
 
 function append_row(l,t) {
@@ -48,5 +51,5 @@ function append_row(l,t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-    t.appendChild(row);}, 10000)
+    t.appendChild(row);}, 1000)
 }
