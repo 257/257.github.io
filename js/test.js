@@ -3,6 +3,7 @@ function say_hello() {
 }
 
 function generate_table(t) {
+  var self = this;
   var lines   = t.split('|');
   // get the reference for the body
   var body    = document.getElementsByTagName("body")[0];
@@ -30,7 +31,6 @@ function generate_table(t) {
   body.appendChild(tbl);
 
   // creating all cells
-  var self = this;
   for (var r = 1; r < lines.length; r++) {
     // creates a table row
     var row = document.createElement("tr");
