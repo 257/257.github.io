@@ -26,10 +26,8 @@ function generate_table(t) {
 
   tbl.appendChild(tblHead);
   tbl.appendChild(tblBody);
-  // appends <table> into <body>
   body.appendChild(tbl);
 
-  // creating all cells
   for (var r = 1; r < lines.length; r++)
     append_row(lines[r],tblBody);
 }
@@ -40,12 +38,12 @@ function append_row(l,t) {
     var cells = l.split(':');
 
     for (var c = 0; c < cells.length; c++)
-      build_row(row, cells[c])
+      build_row(cells[c], row)
 
     t.appendChild(row);}, 1000)
 }
 
-function build_row(r,c) {
+function build_row(c,r) {
   var cell = document.createElement("td");
   var cellText = document.createTextNode(c);
   cell.appendChild(cellText);
