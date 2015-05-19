@@ -2,7 +2,6 @@ function say_hello() {
  document.write("hello world");
 }
 
-var self = this;
 function generate_table(t) {
   var lines   = t.split('|');
   // get the reference for the body
@@ -31,28 +30,29 @@ function generate_table(t) {
   body.appendChild(tbl);
 
   // creating all cells
-  for (var r = 1; r < self.lines.length; r++) {
+  var self = this;
+  for (var r = 1; r < lines.length; r++) {
     // creates a table row
     var row = document.createElement("tr");
-    var cells = self.lines[r].split(':');
+    var cells = lines[r].split(':');
 
-    for (var c = 0; c < self.cells.length; c++) {
+    for (var c = 0; c < cells.length; c++) {
       // Create a <td> element and a text node, make the text
       // node the contents of the <td>, and put the <td> at
       // the end of the table row
       var cell = document.createElement("td");
       var cellText = document.createTextNode(cells[c]);
-      self.cell.appendChild(cellText);
-      self.row.appendChild(cell);
+      cell.appendChild(cellText);
+      row.appendChild(cell);
     }
 
-    self.tblBody.appendChild(self.row);
-    self.tbl.appendChild(self.tblBody);
+    tblBody.appendChild(row);
+    tbl.appendChild(tblBody);
     update_table(self.tbl);
   }
 }
 function update_table(t) {
     setTimeout(function(){
       body.appendChild(t);
-    }, 1000);
+    }, 10000);
 }
