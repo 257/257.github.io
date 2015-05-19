@@ -35,6 +35,7 @@ function generate_table(t) {
 }
 
 function append_row(l,t) {
+  setTimeout(function() {
     var row = document.createElement("tr");
     var cells = l.split(':');
 
@@ -47,5 +48,5 @@ function append_row(l,t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-    t.appendChild(row);
+    t.appendChild(row);}, 1000)
 }
