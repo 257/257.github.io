@@ -48,5 +48,5 @@ function append_row(l,t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-    t.appendChild(row);}, 1000)
+    t.appendChild(row);}, 10000)
 }
