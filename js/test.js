@@ -43,9 +43,9 @@ function generate_table(t) {
       var cell = document.createElement("td");
       var cellText = document.createTextNode(cells[c]);
       cell.appendChild(cellText);
-      row.appendChild(cell);
+      self.row.appendChild(cell);
     }
-    tblBody.appendChild(row);
+    tblBody.appendChild(self.row);
     tbl.appendChild(tblBody);
     body.appendChild(tbl);
   }
