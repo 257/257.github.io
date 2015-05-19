@@ -31,7 +31,7 @@ function generate_table(t) {
 
   // creating all cells
   for (var r = 1; r < lines.length; r++)
-    append_row(lines[r],tbl);
+    append_row(lines[r],tblBody);
 
 }
 
@@ -48,7 +48,7 @@ function append_row(l,t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-    t.tbody.appendChild(row);
-    t.appendChild(t.body);
-    body.appendChild(t);
+    t.appendChild(row);
+    tbl.appendChild(tblBody);
+    body.appendChild(tbl);
 }
