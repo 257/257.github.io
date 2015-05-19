@@ -43,7 +43,7 @@ function generate_table(t) {
       var cell = document.createElement("td");
       var cellText = document.createTextNode(cells[c]);
       cell.appendChild(cellText);
-      self.row.appendChild(cell);
+      row.appendChild(cell);
     }
     tblBody.appendChild(row);
     tbl.appendChild(tblBody);
