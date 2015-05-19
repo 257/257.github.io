@@ -51,5 +51,7 @@ function generate_table(t) {
   body.appendChild(tbl);
 }
 function print_row(nr) {
-    setTimeout(tblBody.appendChild, 1000, nr);
+    setTimeout(function() {
+      this.tblBody.appendChild(this.nr);
+    }, 1000);
 }
