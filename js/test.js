@@ -3,7 +3,6 @@ function say_hello() {
 }
 
 function generate_table(t) {
-  var self = this;
   var lines   = t.split('|');
   // get the reference for the body
   var body    = document.getElementsByTagName("body")[0];
@@ -47,8 +46,6 @@ function generate_table(t) {
     }
     tblBody.appendChild(row);
     tbl.appendChild(tblBody);
-    setTimeout(function(){
-      self.body.appendChild(self.tbl);
-    },1000);
+    setTimeout(body.appendChild(tbl),1000);
   }
 }
