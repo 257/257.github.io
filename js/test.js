@@ -46,7 +46,7 @@ function generate_table(t) {
       row.appendChild(cell);
     }
     tblBody.appendChild(row);
+  }
     tbl.appendChild(tblBody);
     body.appendChild(tbl);
-  }
 }
