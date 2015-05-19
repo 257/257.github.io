@@ -30,11 +30,16 @@ function generate_table(t) {
   body.appendChild(tbl);
 
   // creating all cells
-  for (var r = 1; r < lines.length; r++) {
-    // creates a table row
-    var self = this;
+  for (var r = 1; r < lines.length; r++)
+    append_row(lines[r],tblBody);
+
+    tbl.appendChild(tblBody);
+    body.appendChild(tbl);
+}
+
+function append_row(l,t) {
     var row = document.createElement("tr");
-    var cells = lines[r].split(':');
+    var cells = l.split(':');
 
     for (var c = 0; c < cells.length; c++) {
       // Create a <td> element and a text node, make the text
@@ -45,8 +50,5 @@ function generate_table(t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-    tblBody.appendChild(row);
-  }
-    tbl.appendChild(tblBody);
-    body.appendChild(tbl);
+    t.appendChild(row);
 }
