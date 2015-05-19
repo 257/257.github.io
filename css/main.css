@@ -1,6 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata:400);
 @import url(http://fonts.googleapis.com/css?family=Karla:400);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata:400);
+@font-face {
+  src url('../fonts/bankgthd.ttf');
+  src url('../fonts/Microstyle Bold Extended ATT.ttf');
+}
 /* line 1, ../../_sass/reset.scss */
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
 blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q,
@@ -1570,6 +1574,7 @@ a.tweet-it {
 /* line 32, ../../_sass/404.scss */
 #not-found body .resume {
   text-transform: uppercase;
+  font-family: "BankGothic Md BT";
   padding: 10px;
   max-width: 100%;
   display: block;
