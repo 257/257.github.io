@@ -32,6 +32,7 @@ function generate_table(t) {
   // creating all cells
   for (var r = 1; r < lines.length; r++) {
     // creates a table row
+    var self = this;
     var row = document.createElement("tr");
     var cells = lines[r].split(':');
 
@@ -44,8 +45,9 @@ function generate_table(t) {
       cell.appendChild(cellText);
       row.appendChild(cell);
     }
-    tblBody.appendChild(row);
-    tbl.appendChild(tblBody);
-    setTimeout(body.appendChild(tbl),1000);
+    setTimeout(
+        tblBody.appendChild(row);
+        tbl.appendChild(tblBody);
+        body.appendChild(tbl),1000);
   }
 }
