@@ -40,7 +40,8 @@ function append_row(l,t) {
     for (var c = 0; c < cells.length; c++)
       build_row(cells[c], row)
 
-    t.appendChild(row);}, 1000)
+    t.appendChild(row);
+  }, 1000)
 }
 
 function build_row(c,r) {
