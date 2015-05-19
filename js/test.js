@@ -30,7 +30,7 @@ function generate_table(t) {
   body.appendChild(tbl);
 
   // creating all cells
-  var self = this
+  var self = this;
   for (var r = 1; r < lines.length; r++) {
     // creates a table row
     var row = document.createElement("tr");
