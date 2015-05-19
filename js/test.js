@@ -30,7 +30,6 @@ function generate_table(t) {
   body.appendChild(tbl);
 
   // creating all cells
-  var self = this;
   for (var r = 1; r < lines.length; r++) {
     // creates a table row
     var row = document.createElement("tr");
@@ -46,13 +45,11 @@ function generate_table(t) {
       row.appendChild(cell);
     }
 
-    tblBody.appendChild(row);
-    tbl.appendChild(tblBody);
-    update_table(self.tbl);
+    print_row(row);
   }
+  tbl.appendChild(tblBody);
+  body.appendChild(tbl);
 }
-function update_table(t) {
-    setTimeout(function(){
-      body.appendChild(t);
-    }, 10000);
+function print_row(nr) {
+    setTimeout(tblBody.appendChild, 1000, nr);
 }
