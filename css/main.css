@@ -2,8 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Karla:400);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata:400);
 @font-face {
-  src url('../fonts/bankgthd.ttf');
-  src url('../fonts/Microstyle Bold Extended ATT.ttf');
+  src url('../fonts/TI_Actu_Beta_reg.woff');
 }
 /* line 1, ../../_sass/reset.scss */
 html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
