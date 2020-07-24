@@ -90,12 +90,14 @@ function proglangs()
 {
           var str =
                 "`PROGRAMMING LANGUAGES`\n" +
-                "`Paymon is mainly a system programmer. He codes, mostly, in C and C++\n" +
-                "`mostly writing server daemons\n`" +
-                "`However he also codes and has experience in python, php, sh, R, lua, perl postgres, mysql, javascript, etc\n`" +
-                "`He also has taken on the role of administration of containers, VMs (xen, qemu and KVM) in production environment\n`" +
-                "`Build systems, pkg managers he's deals with on a day-to-day basis are\n`" +
-                "`\tkernel builds, yocto, gentoo (portage), openwrt (buildroot) and make (autotools et al)`" +
+                "`Paymon is mainly a system programmer. He codes mostly in C and sometimes C++ " +
+                "`writing threaded, realtime applicaton, server daemons\n`" +
+                "`He also has experience coding in python, php, sh, R, lua, perl postgres, mysql, javascript, etc\n`" +
+                "`In the past he has taken on the role of administration of realtime applicatons (carrier telephony), running in containers, " +
+                "VMs (xen, qemu and KVM) and in production environment\n`" +
+                "Kernel's Network Stack is what he likes to fiddle with, .\n"
+                "`Build systems and pkg managers he's deals with on a day-to-day basis are\n`" +
+                "`\tKernel Build System (Kconfig), gentoo (portage), openwrt (buildroot)`" +
                 "`\n`";
         new Typed('#proglangs', {
                 typeSpeed : 0,
@@ -116,17 +118,17 @@ function work()
 {
         var str =
                 "`WORK EXPERIENCE\n`" +
-                "`[Jan 2010 - Aug 2011] Paymon worked at CDA as System Programmer/Admin`\n" +
-                "`[May 2014 - May 2016] Paymon did IT Consultant!`\n" +
-                "`[May 2016 - Jul 2019] Paymon worked at NuNetworx Inc. as Developer and System and Network Administrator\n`" +
-                "`[Nov 2019 -  Current] Paymon works at Savoir Faire Linux as part of Jami core development team`" +
+                "`[Jan 2010 - Aug 2011] Paymon worked System Programmer/Admin at CDA (Center for Digital Art)`\n" +
+                "`[May 2014 - May 2016] Paymon did IT Consultant, he was not happy doing that!`\n" +
+                "`[May 2016 - Jul 2019] Paymon worked at NuNetworx Inc. as System/Network Developer/Administrator\n`" +
+                "`[Nov 2019 -  Current] Paymon currenty works at Savoir Faire Linux as part of Jami's core development team`" +
                 "`\n`";
 
         new Typed('#work', {
                 typeSpeed : 0,
                 smartBackspace : false,
                 cursorChar : '&#x2588;',
-                typeSpeed : 0,
+                typeSpeed : 128,
                 backSpeed : 0,
                 loop : false,
                 strings : [ str ],
@@ -143,8 +145,9 @@ function misc()
                 "`MISCELLANEOUS\n`" +
                 "`Paymon spkeas Fluent Engligh and  Advanced Intermediate French\n`" +
                 "`Paymon's mother tongue is Farsi, Azerbaijani\n" +
-                "`Paymon also liks Cognitive Science, Philosophy, Linguistics, Economics\n" +
-                "`He is an avid Rock Climbing and Cyclist and liks Swimming, Running and [Association] Football`" +
+                "`Paymon also liks Cognitive Science, Philosophy, Linguistics, Economics and System Theory\n" +
+                "`He _liks_ to think he is an avid Rock Climber (he's not), a Cyclist (possibly) and an *ok* Swimmer (that's a joke).\n" +
+                "`He Played [Association] Football professionally until the age of 18 when he had to stop because of injury.`" +
                 "`\n`";
         new Typed('#misc', {
                 typeSpeed : 0,
