@@ -190,15 +190,17 @@ function contrib()
                 ">" +
                 "Implementation of ConnectivityChange() in linux based OSes to work directly with kernel via Netlink" +
                 "</a>`\n" +
-                "`<a href=" +
+                "`- Jami contributions`\n" +
+                "`\t<a href=" +
                 "https://review.jami.net/q/author:jrun" +
                 ">" +
-                "- Jami contributions" +
+                "Jami contributions" +
                 "</a>`\n" +
-                "`<a href=" +
+                "`- Contributions on github`\n" +
+                "`\t<a href=" +
                 "https://github.com/257" +
                 ">" +
-                "- Contributions on github" +
+                "Contributions on github" +
                 "</a>``\n`";
 
         new Typed('#contrib', {
