@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function()
                                 },
                                 onDestroy: function(self) {
                                         prettyLog('onDestroy ' + self);
-                                        edu();
+                                        footie();
                                 }
                         })
         })
@@ -81,7 +81,6 @@ function edu()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        proglangs();
                 }})
 }
 
@@ -106,7 +105,7 @@ function proglangs()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        work();
+                        edu();
                 }})
 }
 
@@ -128,7 +127,7 @@ function work()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        misc();
+                        proglangs();
                 }})
 }
 
@@ -152,7 +151,7 @@ function misc()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        contrib();
+                        work();
                 }})
 }
 
@@ -163,39 +162,45 @@ function contrib()
                 "`- CMake`\n" +
                 "`\t<a href=" +
                 "https://gitlab.kitware.com/cmake/cmake/-/commit/3211e07dc6f2b52570f7b9e1034a2e0394c83862" +
-                ">" +
+                " class='cyan'>" +
                 "Ncurses Module" +
                 "</a>`\n" +
                 "`- pjsip`\n" +
                 "`\t<a href=" +
                 "https://github.com/pjsip/pjproject/commit/645611d8a985a03f7509ec1455ed3de4a2e12ebb" +
+                " class='cyan'>" +
                 ">" +
                 "Implementation of on_valid_pair() in ICE STREAM TRANSPORT" +
                 "</a>`\n" +
                 "`\t<a href=" +
                 "https://github.com/pjsip/pjproject/pull/2363" +
+                " class='cyan'>" +
                 ">" +
                 "Collaboration of implementation of RFC 6544" +
                 "</a>`\n" +
                 "`\t<a href=" +
                 "https://github.com/savoirfairelinux/opendht/commit/9487bc5e422c64735f69ccc303636bc2124027be" +
+                " class='cyan'>" +
                 ">" +
                 "Implementation of connectivity change in peer discovery module of opendht" +
                 "</a>`\n" +
                 "`\t<a href=" +
                 "'https://github.com/savoirfairelinux/opendht/compare/master...257:connstat'" +
+                " class='cyan'>" +
                 ">" +
                 "Implementation of ConnectivityChange() in linux based OSes to work directly with kernel via Netlink" +
                 "</a>`\n" +
                 "`- Jami contributions`\n" +
                 "`\t<a href=" +
                 "https://review.jami.net/q/author:jrun" +
+                " class='cyan'>" +
                 ">" +
                 "Jami contributions" +
                 "</a>`\n" +
                 "`- Contributions on github`\n" +
                 "`\t<a href=" +
                 "https://github.com/257" +
+                " class='cyan'>" +
                 ">" +
                 "Contributions on github" +
                 "</a>``\n`";
@@ -211,23 +216,25 @@ function contrib()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        footie();
+                        misc();
                 }})
 }
 
 function footie()
 {
         const str = "`Football Career`\n" +
-                "`<table style='width:32%'>`" +
+                "`<table style='width:48%'>`" +
                         "`<tr>" +
-                                "<th>Year</th><th>Club</th><th>Position/Notes</th>" +
-                        "</tr>`" +
+                                "<th style='text-align:left'>Year</th>" +
+                                "<th style='text-align:left'>Club</th>" +
+                                "<th style='text-align:left'>Position/Notes</th>" +
+                        "`</tr>" +
                         "`<tr>" +
                                 "<td>1995-1996</td><td>Kesahvarz F.C.</td><td>Midfielder<td>" +
-                        "</tr>`" +
+                        "`</tr>" +
                         "`<tr>" +
                                 "<td>1996-1997</td><td>Bazyaft F.C.</td><td>Midfielder</td>";
-                        "</tr>`" +
+                        "`</tr>" +
                 "`</table>`"
 
         new Typed('#footie', {
@@ -241,6 +248,7 @@ function footie()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
+                        contrib();
                 }})
 }
 
