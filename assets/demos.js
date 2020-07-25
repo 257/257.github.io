@@ -1,4 +1,6 @@
-var conf = {
+var fspeed = 64;
+
+const conf = {
         typeSpeed : fspeed,
         smartBackspace : false,
         cursorChar : '&#x2588;',
@@ -7,7 +9,6 @@ var conf = {
         loop : false,
 };
 
-var fspeed = 96;
 
 document.addEventListener('DOMContentLoaded', function()
         {
@@ -67,13 +68,13 @@ document.addEventListener('DOMContentLoaded', function()
 
 function edu()
 {
-        var str = "`EDUCATION\n" +
-                "`[April 2014] Paymon redceived his Bachelors in Mathematics and Statistics, awarded with distinction ``\n`"
+        const str = "`EDUCATION`\n" +
+                "`[April 2014] Paymon redceived his Bachelors in Mathematics and Statistics, awarded with distinction``\n`"
 
         new Typed('#edu', {
                 smartBackspace : false,
                 cursorChar : '&#x2588;',
-                typeSpeed : 16,
+                typeSpeed : 0,
                 backSpeed : 0,
                 loop : false,
                 strings : [ str ],
@@ -86,7 +87,7 @@ function edu()
 
 function proglangs()
 {
-          var str =
+          const str =
                 "`PROGRAMMING LANGUAGES`\n" +
                 "`Paymon is mainly a system programmer. He codes mostly in C and sometimes C++ writing threaded, realtime applicaton, server daemons`\n" +
                 "`He also has experience coding in python, php, sh, R, lua, perl postgres, mysql, javascript, etc`\n" +
@@ -94,7 +95,7 @@ function proglangs()
                 " running in containers, VMs (xen, qemu and KVM) and in production environment`\n" +
                 "`Kernel's Network Stack is what he likes to fiddle with.`\n" +
                 "`Build systems and pkg managers he's deals with on a day-to-day basis are`\n" +
-                "`\tKernel Build System (Kconfig), gentoo (portage), openwrt (buildroot)`\n";
+                "`\tKernel Build System (Kconfig), gentoo (portage), openwrt (buildroot)``\n`";
         new Typed('#proglangs', {
                 smartBackspace : true,
                 cursorChar : '&#x2588;',
@@ -111,13 +112,11 @@ function proglangs()
 
 function work()
 {
-        var str =
-                "`WORK EXPERIENCE\n`" +
+        const str = "`WORK EXPERIENCE\n`" +
                 "`[Jan 2010 - Aug 2011] Paymon worked System Programmer/Admin at CDA (Center for Digital Art)`\n" +
                 "`[May 2014 - May 2016] Paymon did IT Consultant, he was not happy doing that!`\n" +
                 "`[May 2016 - Jul 2019] Paymon worked at NuNetworx Inc. as System/Network Developer/Administrator`\n" +
                 "`[Nov 2019 -  Current] Paymon currenty works at Savoir Faire Linux as part of Jami's core development team\n`";
-
         new Typed('#work', {
                 typeSpeed : fspeed,
                 smartBackspace : false,
@@ -135,13 +134,12 @@ function work()
 
 function misc()
 {
-        var str =
-                "`MISCELLANEOUS`\n" +
+        const str = "`MISCELLANEOUS`\n" +
                 "`Paymon spkeas Fluent Engligh and  Advanced Intermediate French`\n" +
                 "`Paymon's Native Languages are Farsi, Azerbaijani`\n" +
                 "`Paymon also liks Cognitive Science, Philosophy, Linguistics, Economics and System Theory`\n" +
                 "`He _liks_ to think he is an avid Rock Climber (he's not), a Cyclist (possibly) and an *ok* Swimmer (that's a joke).`\n" +
-                "`He Played [Association] Football professionally until the age of 18 when he had to stop because of injury.`\n";
+                "`He Played [Association] Football professionally until the age of 18 when he had to stop because of injury.``\n`";
 
         new Typed('#misc', {
                 typeSpeed : fspeed,
@@ -160,8 +158,7 @@ function misc()
 
 function contrib()
 {
-        var str =
-                "`OPEN SOUCE CONTRIBUTIONS`\n" +
+        const str = "`OPEN SOUCE CONTRIBUTIONS`\n" +
                 "`Paymon has following open source contributions`\n" +
                 "`- CMake`\n" +
                 "`\t<a href=" +
@@ -214,8 +211,39 @@ function contrib()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
+                        footie();
                 }})
 }
+
+function footie()
+{
+        const str = "`Football Career`\n" +
+                "`<table style='width:32%'>`" +
+                        "`<tr>" +
+                                "<th>Year</th><th>Club</th><th>Position/Notes</th>" +
+                        "</tr>`" +
+                        "`<tr>" +
+                                "<td>1995-1996</td><td>Kesahvarz F.C.</td><td>Midfielder<td>" +
+                        "</tr>`" +
+                        "`<tr>" +
+                                "<td>1996-1997</td><td>Bazyaft F.C.</td><td>Midfielder</td>";
+                        "</tr>`" +
+                "`</table>`"
+
+        new Typed('#footie', {
+                typeSpeed : fspeed,
+                smartBackspace : false,
+                cursorChar : '&#x2588;',
+                typeSpeed : 128,
+                backSpeed : 0,
+                loop : false,
+                strings : [ str ],
+                onComplete: function(self)
+                {
+                        prettyLog('onComplete ' + self);
+                }})
+}
+
 
 
 function prettyLog(str)
