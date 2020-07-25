@@ -169,39 +169,33 @@ function contrib()
                 "`\t<a href=" +
                 "https://github.com/pjsip/pjproject/commit/645611d8a985a03f7509ec1455ed3de4a2e12ebb" +
                 " class='cyan'>" +
-                ">" +
                 "Implementation of on_valid_pair() in ICE STREAM TRANSPORT" +
                 "</a>`\n" +
                 "`\t<a href=" +
                 "https://github.com/pjsip/pjproject/pull/2363" +
                 " class='cyan'>" +
-                ">" +
                 "Collaboration of implementation of RFC 6544" +
                 "</a>`\n" +
                 "`\t<a href=" +
                 "https://github.com/savoirfairelinux/opendht/commit/9487bc5e422c64735f69ccc303636bc2124027be" +
                 " class='cyan'>" +
-                ">" +
                 "Implementation of connectivity change in peer discovery module of opendht" +
                 "</a>`\n" +
                 "`\t<a href=" +
                 "'https://github.com/savoirfairelinux/opendht/compare/master...257:connstat'" +
                 " class='cyan'>" +
-                ">" +
                 "Implementation of ConnectivityChange() in linux based OSes to work directly with kernel via Netlink" +
                 "</a>`\n" +
                 "`- Jami contributions`\n" +
                 "`\t<a href=" +
                 "https://review.jami.net/q/author:jrun" +
                 " class='cyan'>" +
-                ">" +
                 "Jami contributions" +
                 "</a>`\n" +
                 "`- Contributions on github`\n" +
                 "`\t<a href=" +
                 "https://github.com/257" +
                 " class='cyan'>" +
-                ">" +
                 "Contributions on github" +
                 "</a>``\n`";
 
