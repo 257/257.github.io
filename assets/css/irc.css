@@ -76,13 +76,32 @@
         margin: 0;
   }
 
+  @font-face {
+    font-family: Space Mono,
+    Squarish Sans CT SC,
+    TI Actu Beta Regular,
+    United Sans Reg, TIActuBeta-Light, Fixed, Monospace !important;
+    src: url("../fonts/space/SpaceMono-Regular.ttf") format("truetype"),
+    url("../fonts/squarishsans/Squarish_Sans_CT_Regular_SC.ttf") format("truetype"),
+    url("../fonts/TI_Actu_Beta_light.woff") format("woff"),
+    url("../fonts/united_sans/united_sans_light.woff2") format("woff2") !important;
+    font-size: 100%;
+  }
+
   body {
+    font-family: Space Mono,
+    Squarish Sans CT SC,
+    TI Actu Beta Regular,
+    United Sans Reg, TIActuBeta-Light, Fixed, Monospace !important;
+    src: url("../fonts/space/SpaceMono-Regular.ttf") format("truetype"),
+    url("../fonts/squarishsans/Squarish_Sans_CT_Regular_SC.ttf") format("truetype"),
+    url("../fonts/TI_Actu_Beta_light.woff") format("woff"),
+    url("../fonts/united_sans/united_sans_light.woff2") format("woff2") !important;
+    font-size: 100%;
     background-color: black;
     color: #00DF00;
-    font-family: 'VT323', 'Courier', monospace;
-    font-size: 26px;
-    background-image: url('/img/broken_noise_@2X.png');
-  }
+    background-image: url('../img/broken_noise_@2X.png');
+}
 
   ::selection {
     background: #00DF00; /* Safari */
@@ -93,7 +112,7 @@
   }
   .content {
     z-index: 100;
-    background-image: url('/img/line.png');
+    background-image: url('../img/line.png');
     position: absolute;
     left: 0;
     top: 0;
