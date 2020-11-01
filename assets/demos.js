@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function()
                                 },
                                 onDestroy: function(self) {
                                         prettyLog('onDestroy ' + self);
-                                        footie();
+                                        edu();
                                 }
                         })
         })
@@ -81,6 +81,7 @@ function edu()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
+                        proglangs();
                 }})
 }
 
@@ -92,9 +93,10 @@ function proglangs()
                 "`He also has experience coding in python, php, sh, R, lua, perl postgres, mysql, javascript, etc`\n" +
                 "`In the past he has taken on the role of administration of realtime applicatons (carrier telephony)," +
                 " running in containers, VMs (xen, qemu and KVM) and in production environment`\n" +
-                "`Kernel's Network Stack is what he likes to fiddle with.`\n" +
-                "`Build systems and pkg managers he's deals with on a day-to-day basis are`\n" +
-                "`\tKernel Build System (Kconfig), gentoo (portage), openwrt (buildroot)``\n`";
+                "`He starts his day marvelling at some linux kernel code while sipping his coffee.`\n" +
+                "`Kernel's Network Stack, and lately boot code for little boards is what he likes to fiddle with.`\n" +
+                "`Build systems and pkg managers he works with on a day-to-day basis:`\n" +
+                "`\tKconfig, portage (poky too), buildroot``\n`";
         new Typed('#proglangs', {
                 smartBackspace : true,
                 cursorChar : '&#x2588;',
@@ -105,7 +107,7 @@ function proglangs()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        edu();
+                        work();
                 }})
 }
 
@@ -127,7 +129,7 @@ function work()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        proglangs();
+                        misc();
                 }})
 }
 
@@ -151,7 +153,7 @@ function misc()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        work();
+                        contrib();
                 }})
 }
 
@@ -174,7 +176,7 @@ function contrib()
                 "`\t<a href=" +
                 "https://github.com/pjsip/pjproject/pull/2363" +
                 " class='cyan'>" +
-                "Collaboration of implementation of RFC 6544" +
+                "Collaborating on the implementation of RFC 6544" +
                 "</a>`\n" +
                 "`\t<a href=" +
                 "https://github.com/savoirfairelinux/opendht/commit/9487bc5e422c64735f69ccc303636bc2124027be" +
@@ -210,7 +212,7 @@ function contrib()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        misc();
+                        // footie();
                 }})
 }
 
@@ -242,7 +244,6 @@ function footie()
                 onComplete: function(self)
                 {
                         prettyLog('onComplete ' + self);
-                        contrib();
                 }})
 }
 
