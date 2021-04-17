@@ -91,9 +91,9 @@ function proglangs()
                 "`PROGRAMMING LANGUAGES`\n" +
                 "`Paymon is mainly a system programmer. He codes mostly in C and sometimes C++ writing threaded, realtime applicaton, server daemons`\n" +
                 "`He also has experience coding in python, php, sh, R, lua, perl postgres, mysql, javascript, etc`\n" +
-                "`In the past he has taken on the role of administration of realtime applicatons (carrier telephony)," +
-                " running in containers, VMs (xen, qemu and KVM) and in production environment`\n" +
-                "`He starts his day marvelling at some linux kernel code while sipping his coffee.`\n" +
+                "`In the past he has taken on the role of system administrator of realtime production applicatons (carrier telephony)," +
+                " either running in containers and/or VMs (xen, qemu and KVM)`\n" +
+                "`He usually starts his day marvelling at some linux kernel code while sipping his coffee.`\n" +
                 "`Kernel's Network Stack, and lately boot code for little boards is what he likes to fiddle with.`\n" +
                 "`Build systems and pkg managers he works with on a day-to-day basis:`\n" +
                 "`\tKconfig, portage (poky too), buildroot``\n`";
@@ -114,10 +114,31 @@ function proglangs()
 function work()
 {
         const str = "`WORK EXPERIENCE\n`" +
-                "`[Jan 2010 - Aug 2011] Paymon worked System Programmer/Admin at CDA (Center for Digital Art)`\n" +
-                "`[May 2014 - May 2016] Paymon did IT Consultant, he was not happy doing that!`\n" +
-                "`[May 2016 - Jul 2019] Paymon worked at NuNetworx Inc. as System/Network Developer/Administrator`\n" +
-                "`[Nov 2019 -  Current] Paymon currenty works at Savoir Faire Linux as part of Jami's core development team\n`";
+                "`[Jan 2010 - Aug 2011] Paymon worked System Programmer/Admin at " +
+                "<a href=" +
+                "https://www.concordia.ca/finearts/cda.html" +
+                " class='cyan'>" +
+                "CDA (Center for Digital Art)" +
+                "</a>`\n" +
+                "`[May 2014 - May 2016] Paymon did IT Consultant!`\n" +
+                "`[May 2016 - Jul 2019] Paymon worked at " +
+                "<a href=" +
+                "http://www.nunetworx.com" +
+                " class='cyan'>" +
+		"NuNetworx Inc." +
+                "</a>" + " as System/Network Developer/Administrator`\n" +
+                "`[Nov 2019 - Jun 2020] Paymon worked at " +
+                "<a href=" +
+                "https://savoirfairelinux.com" +
+                " class='cyan'>" +
+                "Savoir Faire Linux " +
+                "</a>" + " as part of Jami's core development team`\n" +
+                "`[Nov 2020 - Current ] Paymon works as a Software Engineer and System Admin at " +
+                "<a href=" +
+                "https://hiala.io" +
+                " class='cyan'>" +
+                "Haila Inc." +
+                "</a>``\n`";
         new Typed('#work', {
                 typeSpeed : fspeed,
                 smartBackspace : false,
@@ -161,6 +182,12 @@ function contrib()
 {
         const str = "`OPEN SOUCE CONTRIBUTIONS`\n" +
                 "`Paymon has following open source contributions`\n" +
+                "`- systemd/mkosi\n`" +
+                "`\t<a href=" +
+                "https://github.com/systemd/mkosi/commit/f0386b00cfd2c897cbbaad50b0e717e7221676bc" +
+                " class='cyan'>" +
+                "f0386b00" +
+                "</a>`\n" +
                 "`- CMake`\n" +
                 "`\t<a href=" +
                 "https://gitlab.kitware.com/cmake/cmake/-/commit/3211e07dc6f2b52570f7b9e1034a2e0394c83862" +
