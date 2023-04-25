@@ -278,7 +278,7 @@ function footie()
 
 function prettyLog(str)
 {
-        console.log('%c ' + str, 'color: green; font-weight: bold;');
+        console.log('%c ' + str, 'color: #66ff66; font-weight: bold;');
 }
 
 function toggleLoop(typed)
