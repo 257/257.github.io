@@ -114,32 +114,32 @@ function proglangs()
 function work()
 {
         const str = "`WORK EXPERIENCE\n`" +
-                "`[2010 - 2011] Paymon worked System Programmer/Admin at " +
+                "`[ 2010 - 2011 ] Paymon worked System Programmer/Admin at " +
                 "<a href=" +
                 "https://www.concordia.ca/finearts/cda.html" +
                 " class='cyan'>" +
                 "CDA (Center for Digital Art)" +
                 "</a>`\n" +
-                "`[2014 - 2016] Paymon did IT Consultant!`\n" +
-                "`[2016 - 2019] Paymon worked at " +
+                "`[ 2014 - 2016 ] Paymon did IT Consultant!`\n" +
+                "`[ 2016 - 2019 ] Paymon worked at " +
                 "<a href=" +
                 "http://www.nunetworx.com" +
                 " class='cyan'>" +
 		"NuNetworx Inc." +
                 "</a>" + " as System/Network Developer/Administrator`\n" +
-                "`[2019 - 2020] Paymon worked at " +
+                "`[ 2019 - 2020 ] Paymon worked at " +
                 "<a href=" +
                 "https://savoirfairelinux.com" +
                 " class='cyan'>" +
                 "Savoir Faire Linux " +
                 "</a>" + " as part of Jami's core development team`\n" +
-                "`[2020 - 2022 ] Paymon worked as Software Engineer and System Admin at " +
+                "`[ 2021 - 2022 ] Paymon worked as Software Engineer and System Admin at " +
                 "<a href=" +
                 "https://hiala.io" +
                 " class='cyan'>" +
                 "Haila Inc." +
                 "</a>``\n`" +
-                "`[2022 - Current ] Paymon works as Software Engineer at " +
+                "`[  Current  ] Paymon works as Software Engineer at " +
                 "<a href=" +
                 "https://ttgi.io" +
                 " class='cyan'>" +
